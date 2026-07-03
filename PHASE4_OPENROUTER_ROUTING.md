@@ -1,22 +1,21 @@
-# Phase 4 — Groq LLM Integration & Routing Design & Roadmap
+# Phase 4 — OpenRouter LLM Integration & Routing Design & Roadmap
 
-This document outlines the step-by-step implementation plan for integrating the Groq LLM API to generate natural language agronomic advisories, and implementing intelligent routing and fault tolerance.
+This document outlines the step-by-step implementation plan for integrating the OpenRouter LLM API to generate natural language agronomic advisories, and implementing intelligent routing and fault tolerance.
 
 ---
 
 ## 📅 Implementation Steps
 
-### Step 1: Implement Groq Runner (Phase 4.1)
+### Step 1: Implement OpenRouter Runner (Phase 4.1)
 
-Create the LLM wrapper to interface with Groq's high-speed inference engine.
+Create the LLM wrapper to interface with OpenRouter's unified endpoint.
 
-*   **Location:** Create `inference/groq_runner.py` containing the `GroqRunner` class.
-*   **Model selection:** Use `llama3-8b-8192` (extremely fast, low latency, and fit for structured text generation).
-*   **Structured Prompts:** Construct a secure, structured system prompt instructing the model to behave as an expert agronomist:
-    *   Accept incoming inputs (crop, location, soil, N, P, K, rainfall) and the predicted yield suitability metrics.
-    *   Limit output to exactly **2-3 practical, high-value sentences**.
-    *   Always supply one actionable instruction (e.g., specific fertilizer adjustments or irrigation timings).
-*   **Graceful Degradation:** Wrap all client requests in exception blocks. If the `GROQ_API_KEY` is missing or the API returns an error/times out, degrade gracefully by returning a static disclaimer without crashing the main prediction flow.
+*   **Location:** Create `inference/openrouter_runner.py` containing the `OpenRouterRunner` class.
+*   **Model selection:** Use `meta-llama/llama-3.1-8b-instruct:free` (extremely fast, low latency, reasoning capable, and free to use).
+*   **Structured Prompts:** Construct secure, structured prompts instructing the model to behave as an expert agronomist:
+    *   `explain_prediction`: Explains single crop yield outcomes based on explicit soil/climate inputs.
+    *   `explain_recommendation`: Explains location-based Top 5 crop recommendations.
+*   **Graceful Degradation:** Wrap all client requests in exception blocks. If the `OPENROUTER_API_KEY` is missing or the API returns an error/times out, degrade gracefully by returning a static disclaimer without crashing the main prediction flow.
 
 ---
 
@@ -24,15 +23,13 @@ Create the LLM wrapper to interface with Groq's high-speed inference engine.
 
 Create the intelligent routing module to protect application availability and API quotas.
 
-*   **Location:** Create `gateway/router.py` (or integrate directly into gateway orchestration).
 *   **Routing Logic:**
     *   If `explain=False` (default): Execute ONNX inference locally (<10ms latency, zero external calls).
-    *   If `explain=True`: Execute local ONNX inference first, then pass outputs to `GroqRunner` for explanation (~500ms to 1.5s latency).
+    *   If `explain=True`: Execute local ONNX inference first, then pass outputs to `OpenRouterRunner` for explanation (~500ms to 1.5s latency).
 *   **Circuit Breaker implementation:**
-    *   Keep a rolling track of consecutive Groq API failures.
+    *   Keep a rolling track of consecutive OpenRouter API failures.
     *   If **3 consecutive requests fail**, trip the circuit breaker.
     *   When tripped, enter **Open State** for 60 seconds where all `explain=True` queries bypass the API immediately and return a predefined local advisory fallback.
-    *   Expose circuit status to `/health`.
 
 ---
 
@@ -44,16 +41,16 @@ Update the API endpoints in [gateway/main.py](file:///c:/Users/Biswajitrk/Docume
 *   **Rate Limits:** Enforce strict, distinct limits via `SlowAPI`:
     *   `explain=True` requests: Cap at **10 requests/minute** per IP (to prevent API key exhaustion/abuse).
 *   **Telemetry tracking:**
-    *   Track API duration in the `gateway_inference_duration_seconds{backend="groq"}` histogram.
-    *   Add a counter for Groq API timeouts/failures.
+    *   Track API duration in the `gateway_inference_duration_seconds{backend="openrouter"}` histogram.
+    *   Add a counter for OpenRouter API timeouts/failures.
 
 ---
 
 ### Step 4: Verification Testing
 
-Create a script `verify_phase4_routing.py` to confirm the integration:
+Create a script `verify_openrouter_fallback.py` to confirm the integration:
 
-1.  **API key detection:** Verify gateway degrades gracefully to fallback advisories when `GROQ_API_KEY` is cleared from `.env`.
+1.  **API key detection:** Verify gateway degrades gracefully to fallback advisories when `OPENROUTER_API_KEY` is cleared from `.env`.
 2.  **Circuit Breaker tripping:** Simulate API failure or inject bad API keys, trigger 3 consecutive failures, and assert the gateway trips into local fallback mode instantly.
 3.  **Strict Rate Limits:** Spam the explain endpoint and confirm a `429` is triggered after 10 requests.
 4.  **Prompt Injection:** Attempt to hijack the LLM prompt via soil/state variables and confirm that input validation (Phase 1 Pydantic whitelists) blocks it.

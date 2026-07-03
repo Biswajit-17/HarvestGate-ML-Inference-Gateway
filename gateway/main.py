@@ -12,6 +12,11 @@ import time
 from contextlib import asynccontextmanager
 from typing import List, Optional
 
+from dotenv import load_dotenv
+
+# Load environment variables from .env before initializing other configurations
+load_dotenv()
+
 import uvicorn
 from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -32,7 +37,9 @@ from gateway.security import verify_all_artifacts
 from gateway.cache import CacheManager
 from inference.climate import ClimateResolver
 from inference.onnx_runner import ONNXRunner
+from inference.openrouter_runner import OpenRouterRunner
 from inference.scorer import SuitabilityScorer
+from gateway.router import circuit_breaker
 from monitoring.metrics import (
     ACTIVE_REQUESTS,
     CACHE_LOOKUPS,
@@ -62,13 +69,14 @@ onnx_runner: Optional[ONNXRunner] = None
 suitability_scorer: Optional[SuitabilityScorer] = None
 climate_resolver: Optional[ClimateResolver] = None
 cache_manager: Optional[CacheManager] = None
+openrouter_runner: Optional[OpenRouterRunner] = None
 startup_time = time.time()
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Lifespan manager to handle startup integrity checks and component loads."""
-    global onnx_runner, suitability_scorer, climate_resolver, cache_manager
+    global onnx_runner, suitability_scorer, climate_resolver, cache_manager, openrouter_runner
 
     logger.info("Starting up HarvestGate Gateway...")
 
@@ -101,6 +109,9 @@ async def lifespan(app: FastAPI):
         ttl_seconds = int(os.getenv("CACHE_TTL_SECONDS", "3600"))
         cache_manager = CacheManager(redis_url=redis_url, default_ttl=ttl_seconds)
         await cache_manager.connect()
+
+        # 4. Initialize OpenRouter LLM Advisor
+        openrouter_runner = OpenRouterRunner()
 
         GATEWAY_INFO.info({
             "version": "1.0.0",
@@ -214,6 +225,20 @@ async def prometheus_metrics_middleware(request: Request, call_next):
         ACTIVE_REQUESTS.labels(endpoint=endpoint).dec()
 
 
+@app.get("/")
+async def root():
+    """Welcome endpoint providing health, metrics, and documentation links."""
+    return {
+        "message": "Welcome to the HarvestGate ML Inference Gateway!",
+        "status": "online",
+        "endpoints": {
+            "health": "/health",
+            "metrics": "/metrics/",
+            "docs": "/docs" if os.getenv("ENV") != "production" else "disabled"
+        }
+    }
+
+
 # ── Consumer API Endpoints ──
 
 
@@ -279,6 +304,29 @@ async def recommend(request: Request, payload: RecommendRequest):
     # 5. Score yields using capped relative scoring + Bayesian prior
     recommendations = suitability_scorer.score_all(predictions, payload.state)
 
+    # 6. Call LLM for explanation if requested
+    explanation = None
+    if payload.explain and openrouter_runner:
+        if circuit_breaker.can_execute():
+            try:
+                with INFERENCE_LATENCY.labels(backend="openrouter").time():
+                    explanation = await openrouter_runner.explain_recommendation(
+                        state=payload.state,
+                        district=payload.district,
+                        soil_type=payload.soil_type,
+                        recommendations=recommendations
+                    )
+                if "temporarily unavailable" in explanation:
+                    circuit_breaker.record_failure()
+                else:
+                    circuit_breaker.record_success()
+            except Exception as e:
+                logger.error(f"OpenRouter advisory call failed: {e}")
+                circuit_breaker.record_failure()
+                explanation = "Agronomic advisory is temporarily unavailable due to external API latency."
+        else:
+            explanation = "Agronomic advisory is temporarily unavailable due to active circuit breaker (LLM offline)."
+
     latency_ms = (time.perf_counter() - start_time) * 1000
 
     response_data = RecommendResponse(
@@ -287,14 +335,16 @@ async def recommend(request: Request, payload: RecommendRequest):
         district=payload.district,
         recommendations=recommendations,
         climate_source=source,
-        explanation=None,  # Explanations wired up in Phase 4 (Groq)
+        explanation=explanation,
         cached=False,
         latency_ms=round(latency_ms, 2),
     )
 
-    # 6. Cache the Response
+    # 7. Cache the Response
     if cache_manager and cache_manager.is_connected and cache_key:
-        await cache_manager.set(cache_key, response_data.model_dump())
+        # Do not cache fallback/failure explanations to allow retry
+        if not (explanation and ("temporarily unavailable" in explanation or "active circuit breaker" in explanation)):
+            await cache_manager.set(cache_key, response_data.model_dump())
 
     return response_data
 
@@ -342,17 +392,40 @@ async def predict(request: Request, payload: PredictRequest):
     }
 
     # Single-crop mode vs multi-crop mode
+    explanation = None
     if payload.crop:
         # Run prediction for single crop
         with INFERENCE_LATENCY.labels(backend="onnx").time():
             predicted_yield = onnx_runner.predict_single(env_profile, payload.crop)
         PREDICTION_VALUES.observe(predicted_yield)
+        
+        # Explain single crop
+        if payload.explain and openrouter_runner:
+            if circuit_breaker.can_execute():
+                try:
+                    with INFERENCE_LATENCY.labels(backend="openrouter").time():
+                        explanation = await openrouter_runner.explain_prediction(
+                            env_profile=env_profile,
+                            crop=payload.crop,
+                            predicted_yield=predicted_yield
+                        )
+                    if "temporarily unavailable" in explanation:
+                        circuit_breaker.record_failure()
+                    else:
+                        circuit_breaker.record_success()
+                except Exception as e:
+                    logger.error(f"OpenRouter explanation call failed: {e}")
+                    circuit_breaker.record_failure()
+                    explanation = "Agronomic explanation is temporarily unavailable due to external API latency."
+            else:
+                explanation = "Agronomic explanation is temporarily unavailable due to active circuit breaker (LLM offline)."
+                
         latency_ms = (time.perf_counter() - start_time) * 1000
         response_data = PredictResponse(
             predicted_yield=round(predicted_yield, 2),
             recommendations=None,
             unit="Kg/ha",
-            explanation=None,
+            explanation=explanation,
             cached=False,
             latency_ms=round(latency_ms, 2),
             model_backend="onnx",
@@ -364,12 +437,35 @@ async def predict(request: Request, payload: PredictRequest):
         for _crop, yield_val in predictions:
             PREDICTION_VALUES.observe(yield_val)
         recommendations = suitability_scorer.score_all(predictions, payload.state)
+        
+        # Explain recommendations
+        if payload.explain and openrouter_runner:
+            if circuit_breaker.can_execute():
+                try:
+                    with INFERENCE_LATENCY.labels(backend="openrouter").time():
+                        explanation = await openrouter_runner.explain_recommendation(
+                            state=payload.state,
+                            district=None,
+                            soil_type=payload.soil_type,
+                            recommendations=recommendations
+                        )
+                    if "temporarily unavailable" in explanation:
+                        circuit_breaker.record_failure()
+                    else:
+                        circuit_breaker.record_success()
+                except Exception as e:
+                    logger.error(f"OpenRouter advisory call failed: {e}")
+                    circuit_breaker.record_failure()
+                    explanation = "Agronomic explanation is temporarily unavailable due to external API latency."
+            else:
+                explanation = "Agronomic explanation is temporarily unavailable due to active circuit breaker (LLM offline)."
+                
         latency_ms = (time.perf_counter() - start_time) * 1000
         response_data = PredictResponse(
             predicted_yield=None,
             recommendations=recommendations,
             unit="Kg/ha",
-            explanation=None,
+            explanation=explanation,
             cached=False,
             latency_ms=round(latency_ms, 2),
             model_backend="onnx",
@@ -377,7 +473,9 @@ async def predict(request: Request, payload: PredictRequest):
 
     # 2. Cache the Response
     if cache_manager and cache_manager.is_connected and cache_key:
-        await cache_manager.set(cache_key, response_data.model_dump())
+        # Do not cache fallback/failure explanations to allow retry
+        if not (explanation and ("temporarily unavailable" in explanation or "active circuit breaker" in explanation)):
+            await cache_manager.set(cache_key, response_data.model_dump())
 
     return response_data
 
@@ -500,5 +598,6 @@ async def health(request: Request):
         status="healthy",
         onnx_loaded=(onnx_runner is not None),
         redis_connected=redis_status,
+        llm_circuit_breaker_state=circuit_breaker.state,
         uptime_seconds=round(time.time() - startup_time, 1),
     )
