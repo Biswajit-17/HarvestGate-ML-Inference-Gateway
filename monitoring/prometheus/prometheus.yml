@@ -1,0 +1,20 @@
+# Prometheus Scrape Configuration for HarvestGate
+# Docs: https://prometheus.io/docs/prometheus/latest/configuration/configuration/
+
+global:
+  scrape_interval: 15s       # How often to pull metrics from targets
+  evaluation_interval: 15s   # How often to evaluate alerting rules
+  scrape_timeout: 10s        # Per-scrape timeout
+
+scrape_configs:
+  - job_name: "harvestgate-gateway"
+    # The gateway exposes /metrics via prometheus_client make_asgi_app()
+    # When running locally (not containerized), target is host.docker.internal:8000
+    # When fully containerized (Phase 6), target becomes gateway:8000
+    static_configs:
+      - targets: ["host.docker.internal:8000"]
+        labels:
+          environment: "development"
+          service: "harvestgate"
+    metrics_path: "/metrics"
+    scheme: "http"

@@ -1,0 +1,3052 @@
+{
+  "Andhra Pradesh": {
+    "state_defaults": {
+      "n_avg": 111.8,
+      "p_avg": 53.5,
+      "k_avg": 26.0,
+      "annual_rainfall_avg": 916.6,
+      "kharif_rainfall_avg": 536.6,
+      "rabi_rainfall_avg": 302.8,
+      "irrigation_ratio_avg": 0.341
+    },
+    "districts": {
+      "Ananthapur": {
+        "n_avg": 40.3,
+        "p_avg": 26.3,
+        "k_avg": 13.6,
+        "annual_rainfall_avg": 606.6,
+        "kharif_rainfall_avg": 341.0,
+        "rabi_rainfall_avg": 176.0,
+        "irrigation_ratio_avg": 0.366
+      },
+      "Chittoor": {
+        "n_avg": 84.9,
+        "p_avg": 30.8,
+        "k_avg": 17.9,
+        "annual_rainfall_avg": 925.1,
+        "kharif_rainfall_avg": 418.5,
+        "rabi_rainfall_avg": 404.6,
+        "irrigation_ratio_avg": 0.425
+      },
+      "East Godavari": {
+        "n_avg": 137.2,
+        "p_avg": 53.6,
+        "k_avg": 36.5,
+        "annual_rainfall_avg": 1097.9,
+        "kharif_rainfall_avg": 717.5,
+        "rabi_rainfall_avg": 302.5,
+        "irrigation_ratio_avg": 0.249
+      },
+      "Guntur": {
+        "n_avg": 158.5,
+        "p_avg": 82.9,
+        "k_avg": 27.4,
+        "annual_rainfall_avg": 889.8,
+        "kharif_rainfall_avg": 585.5,
+        "rabi_rainfall_avg": 245.0,
+        "irrigation_ratio_avg": 0.329
+      },
+      "Kadapa YSR": {
+        "n_avg": 87.0,
+        "p_avg": 51.7,
+        "k_avg": 23.8,
+        "annual_rainfall_avg": 691.7,
+        "kharif_rainfall_avg": 359.1,
+        "rabi_rainfall_avg": 266.9,
+        "irrigation_ratio_avg": 0.464
+      },
+      "Krishna": {
+        "n_avg": 158.4,
+        "p_avg": 74.2,
+        "k_avg": 43.7,
+        "annual_rainfall_avg": 1044.8,
+        "kharif_rainfall_avg": 693.1,
+        "rabi_rainfall_avg": 286.4,
+        "irrigation_ratio_avg": 0.304
+      },
+      "Kurnool": {
+        "n_avg": 104.6,
+        "p_avg": 69.1,
+        "k_avg": 22.2,
+        "annual_rainfall_avg": 696.1,
+        "kharif_rainfall_avg": 472.7,
+        "rabi_rainfall_avg": 153.6,
+        "irrigation_ratio_avg": 0.265
+      },
+      "S.P.S. Nellore": {
+        "n_avg": 155.0,
+        "p_avg": 68.8,
+        "k_avg": 27.2,
+        "annual_rainfall_avg": 1060.0,
+        "kharif_rainfall_avg": 322.2,
+        "rabi_rainfall_avg": 689.8,
+        "irrigation_ratio_avg": 0.397
+      },
+      "Srikakulam": {
+        "n_avg": 74.9,
+        "p_avg": 24.9,
+        "k_avg": 13.3,
+        "annual_rainfall_avg": 1141.3,
+        "kharif_rainfall_avg": 742.0,
+        "rabi_rainfall_avg": 293.0,
+        "irrigation_ratio_avg": 0.259
+      },
+      "Visakhapatnam": {
+        "n_avg": 65.9,
+        "p_avg": 16.9,
+        "k_avg": 10.9,
+        "annual_rainfall_avg": 1131.1,
+        "kharif_rainfall_avg": 709.8,
+        "rabi_rainfall_avg": 311.1,
+        "irrigation_ratio_avg": 0.19
+      },
+      "West Godavari": {
+        "n_avg": 189.0,
+        "p_avg": 90.8,
+        "k_avg": 60.7,
+        "annual_rainfall_avg": 1021.0,
+        "kharif_rainfall_avg": 715.7,
+        "rabi_rainfall_avg": 243.5,
+        "irrigation_ratio_avg": 0.517
+      }
+    }
+  },
+  "Assam": {
+    "state_defaults": {
+      "n_avg": 25.3,
+      "p_avg": 9.7,
+      "k_avg": 10.9,
+      "annual_rainfall_avg": 1854.5,
+      "kharif_rainfall_avg": 1140.2,
+      "rabi_rainfall_avg": 229.0,
+      "irrigation_ratio_avg": 0.007
+    },
+    "districts": {
+      "Cachar": {
+        "n_avg": 27.6,
+        "p_avg": 9.7,
+        "k_avg": 9.3,
+        "annual_rainfall_avg": 2701.3,
+        "kharif_rainfall_avg": 1715.1,
+        "rabi_rainfall_avg": 322.5,
+        "irrigation_ratio_avg": 0.002
+      },
+      "Darrang": {
+        "n_avg": 26.1,
+        "p_avg": 10.2,
+        "k_avg": 12.3,
+        "annual_rainfall_avg": 1734.9,
+        "kharif_rainfall_avg": 1091.7,
+        "rabi_rainfall_avg": 198.2,
+        "irrigation_ratio_avg": 0.009
+      },
+      "Dibrugarh": {
+        "n_avg": 26.3,
+        "p_avg": 11.4,
+        "k_avg": 11.8,
+        "annual_rainfall_avg": 2150.3,
+        "kharif_rainfall_avg": 1382.7,
+        "rabi_rainfall_avg": 271.5,
+        "irrigation_ratio_avg": 0.001
+      },
+      "Goalpara": {
+        "n_avg": 39.4,
+        "p_avg": 15.4,
+        "k_avg": 18.9,
+        "annual_rainfall_avg": 2101.1,
+        "kharif_rainfall_avg": 1341.7,
+        "rabi_rainfall_avg": 226.2,
+        "irrigation_ratio_avg": 0.009
+      },
+      "Kamrup": {
+        "n_avg": 40.2,
+        "p_avg": 15.8,
+        "k_avg": 17.8,
+        "annual_rainfall_avg": 1733.3,
+        "kharif_rainfall_avg": 969.2,
+        "rabi_rainfall_avg": 246.8,
+        "irrigation_ratio_avg": 0.015
+      },
+      "Karbi Anglong": {
+        "n_avg": 6.2,
+        "p_avg": 2.0,
+        "k_avg": 1.8,
+        "annual_rainfall_avg": 1161.1,
+        "kharif_rainfall_avg": 764.2,
+        "rabi_rainfall_avg": 183.7,
+        "irrigation_ratio_avg": 0.009
+      },
+      "Lakhimpur": {
+        "n_avg": 10.3,
+        "p_avg": 3.5,
+        "k_avg": 4.1,
+        "annual_rainfall_avg": 2615.7,
+        "kharif_rainfall_avg": 1745.4,
+        "rabi_rainfall_avg": 300.3,
+        "irrigation_ratio_avg": 0.003
+      },
+      "Nagaon": {
+        "n_avg": 44.4,
+        "p_avg": 18.2,
+        "k_avg": 19.2,
+        "annual_rainfall_avg": 1319.4,
+        "kharif_rainfall_avg": 837.9,
+        "rabi_rainfall_avg": 194.5,
+        "irrigation_ratio_avg": 0.012
+      },
+      "North Cachar Hil / Dima hasao": {
+        "n_avg": 12.0,
+        "p_avg": 3.5,
+        "k_avg": 3.9,
+        "annual_rainfall_avg": 1285.7,
+        "kharif_rainfall_avg": 363.3,
+        "rabi_rainfall_avg": 114.7,
+        "irrigation_ratio_avg": 0.01
+      },
+      "Sibsagar": {
+        "n_avg": 18.5,
+        "p_avg": 6.9,
+        "k_avg": 8.8,
+        "annual_rainfall_avg": 1714.3,
+        "kharif_rainfall_avg": 1116.4,
+        "rabi_rainfall_avg": 221.6,
+        "irrigation_ratio_avg": 0.001
+      }
+    }
+  },
+  "Bihar": {
+    "state_defaults": {
+      "n_avg": 117.4,
+      "p_avg": 28.7,
+      "k_avg": 13.3,
+      "annual_rainfall_avg": 1070.4,
+      "kharif_rainfall_avg": 788.1,
+      "rabi_rainfall_avg": 148.3,
+      "irrigation_ratio_avg": 0.262
+    },
+    "districts": {
+      "Bhagalpur": {
+        "n_avg": 133.9,
+        "p_avg": 29.1,
+        "k_avg": 18.7,
+        "annual_rainfall_avg": 1159.9,
+        "kharif_rainfall_avg": 925.3,
+        "rabi_rainfall_avg": 95.4,
+        "irrigation_ratio_avg": 0.172
+      },
+      "Champaran": {
+        "n_avg": 110.0,
+        "p_avg": 25.7,
+        "k_avg": 12.9,
+        "annual_rainfall_avg": 1362.3,
+        "kharif_rainfall_avg": 874.8,
+        "rabi_rainfall_avg": 229.9,
+        "irrigation_ratio_avg": 0.251
+      },
+      "Darbhanga": {
+        "n_avg": 91.9,
+        "p_avg": 27.0,
+        "k_avg": 11.6,
+        "annual_rainfall_avg": 945.3,
+        "kharif_rainfall_avg": 579.3,
+        "rabi_rainfall_avg": 164.8,
+        "irrigation_ratio_avg": 0.254
+      },
+      "Gaya": {
+        "n_avg": 118.5,
+        "p_avg": 22.1,
+        "k_avg": 4.8,
+        "annual_rainfall_avg": 916.0,
+        "kharif_rainfall_avg": 783.0,
+        "rabi_rainfall_avg": 83.0,
+        "irrigation_ratio_avg": 0.265
+      },
+      "Mungair": {
+        "n_avg": 169.9,
+        "p_avg": 47.0,
+        "k_avg": 26.4,
+        "annual_rainfall_avg": 1094.0,
+        "kharif_rainfall_avg": 599.6,
+        "rabi_rainfall_avg": 289.3,
+        "irrigation_ratio_avg": 0.22
+      },
+      "Muzaffarpur": {
+        "n_avg": 124.0,
+        "p_avg": 32.0,
+        "k_avg": 16.2,
+        "annual_rainfall_avg": 1209.8,
+        "kharif_rainfall_avg": 1001.0,
+        "rabi_rainfall_avg": 94.6,
+        "irrigation_ratio_avg": 0.313
+      },
+      "Patna": {
+        "n_avg": 166.9,
+        "p_avg": 39.1,
+        "k_avg": 12.0,
+        "annual_rainfall_avg": 991.3,
+        "kharif_rainfall_avg": 863.4,
+        "rabi_rainfall_avg": 75.8,
+        "irrigation_ratio_avg": 0.323
+      },
+      "Purnea": {
+        "n_avg": 103.0,
+        "p_avg": 32.4,
+        "k_avg": 21.8,
+        "annual_rainfall_avg": 1606.6,
+        "kharif_rainfall_avg": 1297.3,
+        "rabi_rainfall_avg": 125.7,
+        "irrigation_ratio_avg": 0.26
+      },
+      "Saharsa": {
+        "n_avg": 57.8,
+        "p_avg": 17.0,
+        "k_avg": 11.3,
+        "annual_rainfall_avg": 1034.0,
+        "kharif_rainfall_avg": 484.6,
+        "rabi_rainfall_avg": 353.3,
+        "irrigation_ratio_avg": 0.327
+      },
+      "Saran": {
+        "n_avg": 78.5,
+        "p_avg": 17.6,
+        "k_avg": 5.1,
+        "annual_rainfall_avg": 806.4,
+        "kharif_rainfall_avg": 621.5,
+        "rabi_rainfall_avg": 105.8,
+        "irrigation_ratio_avg": 0.258
+      },
+      "Shahabad (now part of Bhojpur district)": {
+        "n_avg": 123.7,
+        "p_avg": 24.9,
+        "k_avg": 5.6,
+        "annual_rainfall_avg": 665.3,
+        "kharif_rainfall_avg": 618.2,
+        "rabi_rainfall_avg": 42.9,
+        "irrigation_ratio_avg": 0.256
+      }
+    }
+  },
+  "Chhattisgarh": {
+    "state_defaults": {
+      "n_avg": 46.9,
+      "p_avg": 22.0,
+      "k_avg": 7.2,
+      "annual_rainfall_avg": 1193.4,
+      "kharif_rainfall_avg": 1032.8,
+      "rabi_rainfall_avg": 84.8,
+      "irrigation_ratio_avg": 0.116
+    },
+    "districts": {
+      "Bastar": {
+        "n_avg": 15.9,
+        "p_avg": 8.3,
+        "k_avg": 3.3,
+        "annual_rainfall_avg": 1431.4,
+        "kharif_rainfall_avg": 1161.3,
+        "rabi_rainfall_avg": 129.5,
+        "irrigation_ratio_avg": 0.067
+      },
+      "Bilaspur": {
+        "n_avg": 61.8,
+        "p_avg": 22.5,
+        "k_avg": 6.1,
+        "annual_rainfall_avg": 1223.8,
+        "kharif_rainfall_avg": 1001.7,
+        "rabi_rainfall_avg": 116.1,
+        "irrigation_ratio_avg": 0.112
+      },
+      "Durg": {
+        "n_avg": 46.6,
+        "p_avg": 25.5,
+        "k_avg": 9.4,
+        "annual_rainfall_avg": 1087.6,
+        "kharif_rainfall_avg": 964.1,
+        "rabi_rainfall_avg": 52.1,
+        "irrigation_ratio_avg": 0.146
+      },
+      "Raigarh": {
+        "n_avg": 41.9,
+        "p_avg": 18.8,
+        "k_avg": 5.3,
+        "annual_rainfall_avg": 1206.3,
+        "kharif_rainfall_avg": 1126.4,
+        "rabi_rainfall_avg": 61.8,
+        "irrigation_ratio_avg": 0.141
+      },
+      "Raipur": {
+        "n_avg": 84.2,
+        "p_avg": 41.1,
+        "k_avg": 15.0,
+        "annual_rainfall_avg": 1200.5,
+        "kharif_rainfall_avg": 1047.0,
+        "rabi_rainfall_avg": 71.7,
+        "irrigation_ratio_avg": 0.122
+      },
+      "Surguja": {
+        "n_avg": 26.9,
+        "p_avg": 14.1,
+        "k_avg": 3.7,
+        "annual_rainfall_avg": 1030.4,
+        "kharif_rainfall_avg": 906.4,
+        "rabi_rainfall_avg": 83.6,
+        "irrigation_ratio_avg": 0.098
+      }
+    }
+  },
+  "Gujarat": {
+    "state_defaults": {
+      "n_avg": 79.1,
+      "p_avg": 28.8,
+      "k_avg": 11.7,
+      "annual_rainfall_avg": 864.1,
+      "kharif_rainfall_avg": 848.5,
+      "rabi_rainfall_avg": 11.1,
+      "irrigation_ratio_avg": 0.316
+    },
+    "districts": {
+      "Ahmedabad": {
+        "n_avg": 79.4,
+        "p_avg": 21.3,
+        "k_avg": 8.5,
+        "annual_rainfall_avg": 700.6,
+        "kharif_rainfall_avg": 693.1,
+        "rabi_rainfall_avg": 4.4,
+        "irrigation_ratio_avg": 0.243
+      },
+      "Amreli": {
+        "n_avg": 61.3,
+        "p_avg": 35.3,
+        "k_avg": 4.8,
+        "annual_rainfall_avg": 659.1,
+        "kharif_rainfall_avg": 640.8,
+        "rabi_rainfall_avg": 14.4,
+        "irrigation_ratio_avg": 0.35
+      },
+      "Banaskantha": {
+        "n_avg": 65.1,
+        "p_avg": 21.8,
+        "k_avg": 6.5,
+        "annual_rainfall_avg": 602.4,
+        "kharif_rainfall_avg": 586.2,
+        "rabi_rainfall_avg": 10.6,
+        "irrigation_ratio_avg": 0.323
+      },
+      "Bharuch": {
+        "n_avg": 74.6,
+        "p_avg": 19.8,
+        "k_avg": 16.8,
+        "annual_rainfall_avg": 691.2,
+        "kharif_rainfall_avg": 683.6,
+        "rabi_rainfall_avg": 7.0,
+        "irrigation_ratio_avg": 0.31
+      },
+      "Bhavnagar": {
+        "n_avg": 77.4,
+        "p_avg": 39.4,
+        "k_avg": 5.6,
+        "annual_rainfall_avg": 595.9,
+        "kharif_rainfall_avg": 584.8,
+        "rabi_rainfall_avg": 7.4,
+        "irrigation_ratio_avg": 0.222
+      },
+      "Dangs": {
+        "n_avg": 2.3,
+        "p_avg": 0.7,
+        "k_avg": 0.8,
+        "annual_rainfall_avg": 2248.6,
+        "kharif_rainfall_avg": 2179.7,
+        "rabi_rainfall_avg": 68.9,
+        "irrigation_ratio_avg": 0.223
+      },
+      "Jamnagar": {
+        "n_avg": 53.3,
+        "p_avg": 34.0,
+        "k_avg": 5.0,
+        "annual_rainfall_avg": 642.9,
+        "kharif_rainfall_avg": 637.9,
+        "rabi_rainfall_avg": 6.0,
+        "irrigation_ratio_avg": 0.266
+      },
+      "Junagadh": {
+        "n_avg": 57.0,
+        "p_avg": 34.8,
+        "k_avg": 5.7,
+        "annual_rainfall_avg": 890.7,
+        "kharif_rainfall_avg": 867.3,
+        "rabi_rainfall_avg": 12.0,
+        "irrigation_ratio_avg": 0.409
+      },
+      "Kheda": {
+        "n_avg": 147.9,
+        "p_avg": 23.2,
+        "k_avg": 14.2,
+        "annual_rainfall_avg": 798.2,
+        "kharif_rainfall_avg": 791.1,
+        "rabi_rainfall_avg": 5.0,
+        "irrigation_ratio_avg": 0.387
+      },
+      "Kutch": {
+        "n_avg": 48.8,
+        "p_avg": 16.5,
+        "k_avg": 1.7,
+        "annual_rainfall_avg": 377.3,
+        "kharif_rainfall_avg": 372.0,
+        "rabi_rainfall_avg": 3.6,
+        "irrigation_ratio_avg": 0.409
+      },
+      "Mehsana": {
+        "n_avg": 65.2,
+        "p_avg": 18.5,
+        "k_avg": 3.4,
+        "annual_rainfall_avg": 712.3,
+        "kharif_rainfall_avg": 701.8,
+        "rabi_rainfall_avg": 5.2,
+        "irrigation_ratio_avg": 0.327
+      },
+      "Panchmahal": {
+        "n_avg": 67.0,
+        "p_avg": 15.0,
+        "k_avg": 2.5,
+        "annual_rainfall_avg": 748.9,
+        "kharif_rainfall_avg": 740.6,
+        "rabi_rainfall_avg": 4.6,
+        "irrigation_ratio_avg": 0.21
+      },
+      "Rajkot": {
+        "n_avg": 95.0,
+        "p_avg": 49.8,
+        "k_avg": 12.4,
+        "annual_rainfall_avg": 609.4,
+        "kharif_rainfall_avg": 599.5,
+        "rabi_rainfall_avg": 6.5,
+        "irrigation_ratio_avg": 0.276
+      },
+      "Sabarkantha": {
+        "n_avg": 97.0,
+        "p_avg": 33.4,
+        "k_avg": 14.7,
+        "annual_rainfall_avg": 803.2,
+        "kharif_rainfall_avg": 788.5,
+        "rabi_rainfall_avg": 9.4,
+        "irrigation_ratio_avg": 0.307
+      },
+      "Surat": {
+        "n_avg": 126.0,
+        "p_avg": 58.9,
+        "k_avg": 48.7,
+        "annual_rainfall_avg": 1432.9,
+        "kharif_rainfall_avg": 1400.3,
+        "rabi_rainfall_avg": 16.3,
+        "irrigation_ratio_avg": 0.392
+      },
+      "Surendranagar": {
+        "n_avg": 66.0,
+        "p_avg": 25.1,
+        "k_avg": 2.5,
+        "annual_rainfall_avg": 573.3,
+        "kharif_rainfall_avg": 567.9,
+        "rabi_rainfall_avg": 3.8,
+        "irrigation_ratio_avg": 0.251
+      },
+      "Vadodara / Baroda": {
+        "n_avg": 111.8,
+        "p_avg": 24.8,
+        "k_avg": 14.2,
+        "annual_rainfall_avg": 911.0,
+        "kharif_rainfall_avg": 890.0,
+        "rabi_rainfall_avg": 11.8,
+        "irrigation_ratio_avg": 0.4
+      },
+      "Valsad": {
+        "n_avg": 84.7,
+        "p_avg": 39.5,
+        "k_avg": 36.4,
+        "annual_rainfall_avg": 1997.9,
+        "kharif_rainfall_avg": 1975.2,
+        "rabi_rainfall_avg": 21.6,
+        "irrigation_ratio_avg": 0.399
+      }
+    }
+  },
+  "Haryana": {
+    "state_defaults": {
+      "n_avg": 142.1,
+      "p_avg": 43.0,
+      "k_avg": 4.3,
+      "annual_rainfall_avg": 488.8,
+      "kharif_rainfall_avg": 383.0,
+      "rabi_rainfall_avg": 64.6,
+      "irrigation_ratio_avg": 0.558
+    },
+    "districts": {
+      "Ambala": {
+        "n_avg": 189.5,
+        "p_avg": 51.4,
+        "k_avg": 9.9,
+        "annual_rainfall_avg": 954.9,
+        "kharif_rainfall_avg": 783.7,
+        "rabi_rainfall_avg": 118.0,
+        "irrigation_ratio_avg": 0.322
+      },
+      "Gurgaon": {
+        "n_avg": 132.2,
+        "p_avg": 44.7,
+        "k_avg": 4.4,
+        "annual_rainfall_avg": 498.4,
+        "kharif_rainfall_avg": 381.3,
+        "rabi_rainfall_avg": 71.3,
+        "irrigation_ratio_avg": 0.492
+      },
+      "Hissar": {
+        "n_avg": 109.3,
+        "p_avg": 34.8,
+        "k_avg": 3.0,
+        "annual_rainfall_avg": 301.5,
+        "kharif_rainfall_avg": 226.6,
+        "rabi_rainfall_avg": 39.9,
+        "irrigation_ratio_avg": 0.497
+      },
+      "Jind": {
+        "n_avg": 146.3,
+        "p_avg": 37.5,
+        "k_avg": 3.2,
+        "annual_rainfall_avg": 480.8,
+        "kharif_rainfall_avg": 355.5,
+        "rabi_rainfall_avg": 77.8,
+        "irrigation_ratio_avg": 0.682
+      },
+      "Karnal": {
+        "n_avg": 214.1,
+        "p_avg": 55.4,
+        "k_avg": 6.1,
+        "annual_rainfall_avg": 506.8,
+        "kharif_rainfall_avg": 391.9,
+        "rabi_rainfall_avg": 75.0,
+        "irrigation_ratio_avg": 0.766
+      },
+      "Mahendragarh / Narnaul": {
+        "n_avg": 81.8,
+        "p_avg": 32.4,
+        "k_avg": 2.2,
+        "annual_rainfall_avg": 377.9,
+        "kharif_rainfall_avg": 308.1,
+        "rabi_rainfall_avg": 42.7,
+        "irrigation_ratio_avg": 0.454
+      },
+      "Rohtak": {
+        "n_avg": 139.7,
+        "p_avg": 47.1,
+        "k_avg": 2.5,
+        "annual_rainfall_avg": 396.8,
+        "kharif_rainfall_avg": 311.1,
+        "rabi_rainfall_avg": 42.6,
+        "irrigation_ratio_avg": 0.685
+      }
+    }
+  },
+  "Himachal Pradesh": {
+    "state_defaults": {
+      "n_avg": 32.5,
+      "p_avg": 11.4,
+      "k_avg": 11.4,
+      "annual_rainfall_avg": 1180.6,
+      "kharif_rainfall_avg": 820.7,
+      "rabi_rainfall_avg": 270.5,
+      "irrigation_ratio_avg": 0.22
+    },
+    "districts": {
+      "Bilashpur": {
+        "n_avg": 32.0,
+        "p_avg": 3.6,
+        "k_avg": 2.2,
+        "annual_rainfall_avg": 1024.6,
+        "kharif_rainfall_avg": 766.4,
+        "rabi_rainfall_avg": 200.5,
+        "irrigation_ratio_avg": 0.152
+      },
+      "Chamba": {
+        "n_avg": 15.4,
+        "p_avg": 1.3,
+        "k_avg": 1.0,
+        "annual_rainfall_avg": 1279.5,
+        "kharif_rainfall_avg": 687.3,
+        "rabi_rainfall_avg": 452.4,
+        "irrigation_ratio_avg": 0.175
+      },
+      "Kangra": {
+        "n_avg": 37.4,
+        "p_avg": 8.1,
+        "k_avg": 4.7,
+        "annual_rainfall_avg": 1689.4,
+        "kharif_rainfall_avg": 1351.5,
+        "rabi_rainfall_avg": 259.6,
+        "irrigation_ratio_avg": 0.249
+      },
+      "Kinnaur": {
+        "n_avg": 9.4,
+        "p_avg": 6.2,
+        "k_avg": 6.2,
+        "annual_rainfall_avg": 594.7,
+        "kharif_rainfall_avg": 207.7,
+        "rabi_rainfall_avg": 341.4,
+        "irrigation_ratio_avg": 0.333
+      },
+      "Kullu": {
+        "n_avg": 31.6,
+        "p_avg": 15.8,
+        "k_avg": 19.2,
+        "annual_rainfall_avg": 1148.6,
+        "kharif_rainfall_avg": 598.7,
+        "rabi_rainfall_avg": 405.3,
+        "irrigation_ratio_avg": 0.107
+      },
+      "Lahul & Spiti": {
+        "n_avg": 40.0,
+        "p_avg": 39.3,
+        "k_avg": 26.3,
+        "annual_rainfall_avg": 521.2,
+        "kharif_rainfall_avg": 147.8,
+        "rabi_rainfall_avg": 271.9,
+        "irrigation_ratio_avg": 0.746
+      },
+      "Mandi": {
+        "n_avg": 27.2,
+        "p_avg": 6.4,
+        "k_avg": 4.7,
+        "annual_rainfall_avg": 1385.1,
+        "kharif_rainfall_avg": 1049.7,
+        "rabi_rainfall_avg": 232.5,
+        "irrigation_ratio_avg": 0.162
+      },
+      "Shimla": {
+        "n_avg": 39.6,
+        "p_avg": 29.4,
+        "k_avg": 45.6,
+        "annual_rainfall_avg": 1004.6,
+        "kharif_rainfall_avg": 640.7,
+        "rabi_rainfall_avg": 254.4,
+        "irrigation_ratio_avg": 0.1
+      },
+      "Sirmaur": {
+        "n_avg": 34.9,
+        "p_avg": 7.0,
+        "k_avg": 4.0,
+        "annual_rainfall_avg": 1315.2,
+        "kharif_rainfall_avg": 1043.0,
+        "rabi_rainfall_avg": 207.0,
+        "irrigation_ratio_avg": 0.304
+      },
+      "Solan": {
+        "n_avg": 43.7,
+        "p_avg": 9.2,
+        "k_avg": 5.2,
+        "annual_rainfall_avg": 1026.9,
+        "kharif_rainfall_avg": 767.4,
+        "rabi_rainfall_avg": 199.9,
+        "irrigation_ratio_avg": 0.203
+      }
+    }
+  },
+  "Jharkhand": {
+    "state_defaults": {
+      "n_avg": 55.4,
+      "p_avg": 22.1,
+      "k_avg": 4.2,
+      "annual_rainfall_avg": 1157.8,
+      "kharif_rainfall_avg": 958.6,
+      "rabi_rainfall_avg": 129.2,
+      "irrigation_ratio_avg": 0.193
+    },
+    "districts": {
+      "Dhanbad": {
+        "n_avg": 27.1,
+        "p_avg": 6.8,
+        "k_avg": 1.0,
+        "annual_rainfall_avg": 1217.3,
+        "kharif_rainfall_avg": 1025.9,
+        "rabi_rainfall_avg": 117.7,
+        "irrigation_ratio_avg": 0.198
+      },
+      "Hazaribagh": {
+        "n_avg": 76.3,
+        "p_avg": 31.6,
+        "k_avg": 6.6,
+        "annual_rainfall_avg": 1133.9,
+        "kharif_rainfall_avg": 936.2,
+        "rabi_rainfall_avg": 130.6,
+        "irrigation_ratio_avg": 0.213
+      },
+      "Palamau": {
+        "n_avg": 63.5,
+        "p_avg": 24.1,
+        "k_avg": 3.1,
+        "annual_rainfall_avg": 892.0,
+        "kharif_rainfall_avg": 782.1,
+        "rabi_rainfall_avg": 88.8,
+        "irrigation_ratio_avg": 0.221
+      },
+      "Ranchi": {
+        "n_avg": 53.3,
+        "p_avg": 25.0,
+        "k_avg": 5.0,
+        "annual_rainfall_avg": 1185.5,
+        "kharif_rainfall_avg": 952.9,
+        "rabi_rainfall_avg": 149.6,
+        "irrigation_ratio_avg": 0.182
+      },
+      "Santhal Paragana / Dumka": {
+        "n_avg": 88.5,
+        "p_avg": 34.6,
+        "k_avg": 7.5,
+        "annual_rainfall_avg": 1232.9,
+        "kharif_rainfall_avg": 1023.3,
+        "rabi_rainfall_avg": 139.4,
+        "irrigation_ratio_avg": 0.177
+      },
+      "Singhbhum": {
+        "n_avg": 10.7,
+        "p_avg": 4.1,
+        "k_avg": 0.5,
+        "annual_rainfall_avg": 1324.6,
+        "kharif_rainfall_avg": 1063.7,
+        "rabi_rainfall_avg": 149.8,
+        "irrigation_ratio_avg": 0.162
+      }
+    }
+  },
+  "Karnataka": {
+    "state_defaults": {
+      "n_avg": 74.9,
+      "p_avg": 41.6,
+      "k_avg": 27.9,
+      "annual_rainfall_avg": 1053.3,
+      "kharif_rainfall_avg": 754.1,
+      "rabi_rainfall_avg": 175.8,
+      "irrigation_ratio_avg": 0.222
+    },
+    "districts": {
+      "Bangalore": {
+        "n_avg": 106.9,
+        "p_avg": 59.2,
+        "k_avg": 42.1,
+        "annual_rainfall_avg": 865.8,
+        "kharif_rainfall_avg": 463.4,
+        "rabi_rainfall_avg": 252.5,
+        "irrigation_ratio_avg": 0.228
+      },
+      "Belgaum": {
+        "n_avg": 81.7,
+        "p_avg": 37.8,
+        "k_avg": 30.9,
+        "annual_rainfall_avg": 889.3,
+        "kharif_rainfall_avg": 655.8,
+        "rabi_rainfall_avg": 124.2,
+        "irrigation_ratio_avg": 0.229
+      },
+      "Bellary": {
+        "n_avg": 138.2,
+        "p_avg": 72.2,
+        "k_avg": 36.9,
+        "annual_rainfall_avg": 600.0,
+        "kharif_rainfall_avg": 367.7,
+        "rabi_rainfall_avg": 138.7,
+        "irrigation_ratio_avg": 0.295
+      },
+      "Bidar": {
+        "n_avg": 28.2,
+        "p_avg": 24.7,
+        "k_avg": 6.3,
+        "annual_rainfall_avg": 788.3,
+        "kharif_rainfall_avg": 625.9,
+        "rabi_rainfall_avg": 106.2,
+        "irrigation_ratio_avg": 0.189
+      },
+      "Bijapur / Vijayapura": {
+        "n_avg": 43.1,
+        "p_avg": 22.7,
+        "k_avg": 13.3,
+        "annual_rainfall_avg": 524.6,
+        "kharif_rainfall_avg": 363.9,
+        "rabi_rainfall_avg": 108.9,
+        "irrigation_ratio_avg": 0.343
+      },
+      "Chickmagalur": {
+        "n_avg": 73.8,
+        "p_avg": 45.2,
+        "k_avg": 54.1,
+        "annual_rainfall_avg": 1894.0,
+        "kharif_rainfall_avg": 1517.3,
+        "rabi_rainfall_avg": 220.7,
+        "irrigation_ratio_avg": 0.121
+      },
+      "Chitradurga": {
+        "n_avg": 68.2,
+        "p_avg": 41.4,
+        "k_avg": 16.4,
+        "annual_rainfall_avg": 638.9,
+        "kharif_rainfall_avg": 335.3,
+        "rabi_rainfall_avg": 171.4,
+        "irrigation_ratio_avg": 0.201
+      },
+      "Dakshina Kannada": {
+        "n_avg": 33.7,
+        "p_avg": 19.3,
+        "k_avg": 30.4,
+        "annual_rainfall_avg": 3785.0,
+        "kharif_rainfall_avg": 3086.6,
+        "rabi_rainfall_avg": 378.7,
+        "irrigation_ratio_avg": 0.404
+      },
+      "Dharwad": {
+        "n_avg": 44.3,
+        "p_avg": 29.1,
+        "k_avg": 12.2,
+        "annual_rainfall_avg": 705.6,
+        "kharif_rainfall_avg": 455.8,
+        "rabi_rainfall_avg": 124.8,
+        "irrigation_ratio_avg": 0.139
+      },
+      "Gulbarga / Kalaburagi": {
+        "n_avg": 38.5,
+        "p_avg": 28.7,
+        "k_avg": 8.5,
+        "annual_rainfall_avg": 693.3,
+        "kharif_rainfall_avg": 518.3,
+        "rabi_rainfall_avg": 104.9,
+        "irrigation_ratio_avg": 0.26
+      },
+      "Hassan": {
+        "n_avg": 74.8,
+        "p_avg": 43.7,
+        "k_avg": 37.4,
+        "annual_rainfall_avg": 1130.2,
+        "kharif_rainfall_avg": 736.8,
+        "rabi_rainfall_avg": 223.5,
+        "irrigation_ratio_avg": 0.186
+      },
+      "Kodagu / Coorg": {
+        "n_avg": 93.3,
+        "p_avg": 59.2,
+        "k_avg": 75.1,
+        "annual_rainfall_avg": 2750.6,
+        "kharif_rainfall_avg": 2216.6,
+        "rabi_rainfall_avg": 289.7,
+        "irrigation_ratio_avg": 0.133
+      },
+      "Kolar": {
+        "n_avg": 85.1,
+        "p_avg": 49.5,
+        "k_avg": 26.2,
+        "annual_rainfall_avg": 732.4,
+        "kharif_rainfall_avg": 376.4,
+        "rabi_rainfall_avg": 231.9,
+        "irrigation_ratio_avg": 0.2
+      },
+      "Mandya": {
+        "n_avg": 173.8,
+        "p_avg": 60.9,
+        "k_avg": 53.3,
+        "annual_rainfall_avg": 709.5,
+        "kharif_rainfall_avg": 299.4,
+        "rabi_rainfall_avg": 250.4,
+        "irrigation_ratio_avg": 0.264
+      },
+      "Mysore": {
+        "n_avg": 60.6,
+        "p_avg": 32.3,
+        "k_avg": 30.4,
+        "annual_rainfall_avg": 781.4,
+        "kharif_rainfall_avg": 367.0,
+        "rabi_rainfall_avg": 234.0,
+        "irrigation_ratio_avg": 0.215
+      },
+      "Raichur": {
+        "n_avg": 104.2,
+        "p_avg": 54.7,
+        "k_avg": 30.1,
+        "annual_rainfall_avg": 623.7,
+        "kharif_rainfall_avg": 403.3,
+        "rabi_rainfall_avg": 146.5,
+        "irrigation_ratio_avg": 0.252
+      },
+      "Shimoge": {
+        "n_avg": 114.5,
+        "p_avg": 69.2,
+        "k_avg": 51.3,
+        "annual_rainfall_avg": 2217.7,
+        "kharif_rainfall_avg": 1928.1,
+        "rabi_rainfall_avg": 175.5,
+        "irrigation_ratio_avg": 0.232
+      },
+      "Tumkur": {
+        "n_avg": 39.3,
+        "p_avg": 21.7,
+        "k_avg": 9.9,
+        "annual_rainfall_avg": 700.6,
+        "kharif_rainfall_avg": 376.6,
+        "rabi_rainfall_avg": 198.3,
+        "irrigation_ratio_avg": 0.24
+      },
+      "Uttara Kannada": {
+        "n_avg": 51.0,
+        "p_avg": 32.9,
+        "k_avg": 23.5,
+        "annual_rainfall_avg": 2891.4,
+        "kharif_rainfall_avg": 2530.6,
+        "rabi_rainfall_avg": 188.7,
+        "irrigation_ratio_avg": 0.114
+      }
+    }
+  },
+  "Kerala": {
+    "state_defaults": {
+      "n_avg": 43.1,
+      "p_avg": 19.4,
+      "k_avg": 29.5,
+      "annual_rainfall_avg": 2684.5,
+      "kharif_rainfall_avg": 1744.5,
+      "rabi_rainfall_avg": 586.0,
+      "irrigation_ratio_avg": 0.378
+    },
+    "districts": {
+      "Alappuzha": {
+        "n_avg": 56.2,
+        "p_avg": 25.3,
+        "k_avg": 35.5,
+        "annual_rainfall_avg": 2656.5,
+        "kharif_rainfall_avg": 1560.8,
+        "rabi_rainfall_avg": 669.6,
+        "irrigation_ratio_avg": 0.571
+      },
+      "Eranakulam": {
+        "n_avg": 57.1,
+        "p_avg": 25.2,
+        "k_avg": 41.9,
+        "annual_rainfall_avg": 3242.8,
+        "kharif_rainfall_avg": 2098.2,
+        "rabi_rainfall_avg": 694.3,
+        "irrigation_ratio_avg": 0.554
+      },
+      "Kannur": {
+        "n_avg": 20.8,
+        "p_avg": 10.2,
+        "k_avg": 18.2,
+        "annual_rainfall_avg": 3254.9,
+        "kharif_rainfall_avg": 2490.7,
+        "rabi_rainfall_avg": 471.8,
+        "irrigation_ratio_avg": 0.357
+      },
+      "Kollam": {
+        "n_avg": 23.0,
+        "p_avg": 14.7,
+        "k_avg": 22.5,
+        "annual_rainfall_avg": 2396.6,
+        "kharif_rainfall_avg": 1237.1,
+        "rabi_rainfall_avg": 753.7,
+        "irrigation_ratio_avg": 0.381
+      },
+      "Kottayam": {
+        "n_avg": 44.5,
+        "p_avg": 23.7,
+        "k_avg": 36.4,
+        "annual_rainfall_avg": 2985.7,
+        "kharif_rainfall_avg": 1764.2,
+        "rabi_rainfall_avg": 753.9,
+        "irrigation_ratio_avg": 0.519
+      },
+      "Kozhikode": {
+        "n_avg": 32.4,
+        "p_avg": 13.2,
+        "k_avg": 30.7,
+        "annual_rainfall_avg": 3353.4,
+        "kharif_rainfall_avg": 2456.5,
+        "rabi_rainfall_avg": 559.2,
+        "irrigation_ratio_avg": 0.292
+      },
+      "Malappuram": {
+        "n_avg": 24.0,
+        "p_avg": 12.2,
+        "k_avg": 22.6,
+        "annual_rainfall_avg": 2629.9,
+        "kharif_rainfall_avg": 1810.8,
+        "rabi_rainfall_avg": 489.1,
+        "irrigation_ratio_avg": 0.333
+      },
+      "Palakkad": {
+        "n_avg": 54.4,
+        "p_avg": 21.0,
+        "k_avg": 27.2,
+        "annual_rainfall_avg": 2231.5,
+        "kharif_rainfall_avg": 1539.2,
+        "rabi_rainfall_avg": 434.5,
+        "irrigation_ratio_avg": 0.172
+      },
+      "Thiruvananthapuram": {
+        "n_avg": 26.0,
+        "p_avg": 16.7,
+        "k_avg": 14.0,
+        "annual_rainfall_avg": 1818.0,
+        "kharif_rainfall_avg": 790.2,
+        "rabi_rainfall_avg": 691.9,
+        "irrigation_ratio_avg": 0.588
+      },
+      "Thrissur": {
+        "n_avg": 55.4,
+        "p_avg": 22.7,
+        "k_avg": 36.8,
+        "annual_rainfall_avg": 2832.6,
+        "kharif_rainfall_avg": 1953.8,
+        "rabi_rainfall_avg": 552.2,
+        "irrigation_ratio_avg": 0.419
+      }
+    }
+  },
+  "Madhya Pradesh": {
+    "state_defaults": {
+      "n_avg": 38.9,
+      "p_avg": 22.9,
+      "k_avg": 3.1,
+      "annual_rainfall_avg": 955.9,
+      "kharif_rainfall_avg": 874.3,
+      "rabi_rainfall_avg": 62.5,
+      "irrigation_ratio_avg": 0.215
+    },
+    "districts": {
+      "Balaghat": {
+        "n_avg": 37.1,
+        "p_avg": 23.8,
+        "k_avg": 2.2,
+        "annual_rainfall_avg": 1342.1,
+        "kharif_rainfall_avg": 1235.2,
+        "rabi_rainfall_avg": 95.0,
+        "irrigation_ratio_avg": 0.203
+      },
+      "Betul": {
+        "n_avg": 32.5,
+        "p_avg": 13.6,
+        "k_avg": 2.1,
+        "annual_rainfall_avg": 1033.3,
+        "kharif_rainfall_avg": 938.6,
+        "rabi_rainfall_avg": 79.1,
+        "irrigation_ratio_avg": 0.175
+      },
+      "Bhind": {
+        "n_avg": 51.8,
+        "p_avg": 26.2,
+        "k_avg": 1.1,
+        "annual_rainfall_avg": 593.1,
+        "kharif_rainfall_avg": 510.2,
+        "rabi_rainfall_avg": 64.5,
+        "irrigation_ratio_avg": 0.288
+      },
+      "Chhatarpur": {
+        "n_avg": 25.0,
+        "p_avg": 20.4,
+        "k_avg": 0.4,
+        "annual_rainfall_avg": 891.8,
+        "kharif_rainfall_avg": 805.1,
+        "rabi_rainfall_avg": 81.5,
+        "irrigation_ratio_avg": 0.227
+      },
+      "Chhindwara": {
+        "n_avg": 42.3,
+        "p_avg": 16.1,
+        "k_avg": 4.7,
+        "annual_rainfall_avg": 997.5,
+        "kharif_rainfall_avg": 882.1,
+        "rabi_rainfall_avg": 95.7,
+        "irrigation_ratio_avg": 0.17
+      },
+      "Damoh": {
+        "n_avg": 15.7,
+        "p_avg": 13.5,
+        "k_avg": 0.5,
+        "annual_rainfall_avg": 1086.8,
+        "kharif_rainfall_avg": 981.6,
+        "rabi_rainfall_avg": 69.8,
+        "irrigation_ratio_avg": 0.146
+      },
+      "Datia": {
+        "n_avg": 48.2,
+        "p_avg": 19.7,
+        "k_avg": 0.9,
+        "annual_rainfall_avg": 734.2,
+        "kharif_rainfall_avg": 650.8,
+        "rabi_rainfall_avg": 49.5,
+        "irrigation_ratio_avg": 0.305
+      },
+      "Dewas": {
+        "n_avg": 38.3,
+        "p_avg": 27.4,
+        "k_avg": 5.1,
+        "annual_rainfall_avg": 878.9,
+        "kharif_rainfall_avg": 848.1,
+        "rabi_rainfall_avg": 22.4,
+        "irrigation_ratio_avg": 0.229
+      },
+      "Dhar": {
+        "n_avg": 62.0,
+        "p_avg": 33.2,
+        "k_avg": 6.2,
+        "annual_rainfall_avg": 787.5,
+        "kharif_rainfall_avg": 753.4,
+        "rabi_rainfall_avg": 29.5,
+        "irrigation_ratio_avg": 0.229
+      },
+      "Guna": {
+        "n_avg": 18.9,
+        "p_avg": 15.5,
+        "k_avg": 0.5,
+        "annual_rainfall_avg": 920.6,
+        "kharif_rainfall_avg": 858.8,
+        "rabi_rainfall_avg": 48.8,
+        "irrigation_ratio_avg": 0.11
+      },
+      "Gwalior": {
+        "n_avg": 92.4,
+        "p_avg": 42.9,
+        "k_avg": 2.4,
+        "annual_rainfall_avg": 716.2,
+        "kharif_rainfall_avg": 626.4,
+        "rabi_rainfall_avg": 67.9,
+        "irrigation_ratio_avg": 0.283
+      },
+      "Hoshangabad": {
+        "n_avg": 71.0,
+        "p_avg": 39.6,
+        "k_avg": 3.9,
+        "annual_rainfall_avg": 1297.3,
+        "kharif_rainfall_avg": 1209.4,
+        "rabi_rainfall_avg": 63.2,
+        "irrigation_ratio_avg": 0.346
+      },
+      "Indore": {
+        "n_avg": 68.6,
+        "p_avg": 51.6,
+        "k_avg": 12.7,
+        "annual_rainfall_avg": 909.6,
+        "kharif_rainfall_avg": 836.1,
+        "rabi_rainfall_avg": 51.7,
+        "irrigation_ratio_avg": 0.223
+      },
+      "Jabalpur": {
+        "n_avg": 54.3,
+        "p_avg": 28.7,
+        "k_avg": 3.1,
+        "annual_rainfall_avg": 1234.4,
+        "kharif_rainfall_avg": 1129.5,
+        "rabi_rainfall_avg": 90.3,
+        "irrigation_ratio_avg": 0.201
+      },
+      "Jhabua": {
+        "n_avg": 49.4,
+        "p_avg": 13.0,
+        "k_avg": 1.5,
+        "annual_rainfall_avg": 862.0,
+        "kharif_rainfall_avg": 815.7,
+        "rabi_rainfall_avg": 29.8,
+        "irrigation_ratio_avg": 0.151
+      },
+      "Khandwa / East Nimar": {
+        "n_avg": 60.9,
+        "p_avg": 32.9,
+        "k_avg": 21.4,
+        "annual_rainfall_avg": 835.1,
+        "kharif_rainfall_avg": 765.3,
+        "rabi_rainfall_avg": 37.7,
+        "irrigation_ratio_avg": 0.203
+      },
+      "Khargone / West Nimar": {
+        "n_avg": 78.6,
+        "p_avg": 36.1,
+        "k_avg": 12.6,
+        "annual_rainfall_avg": 773.4,
+        "kharif_rainfall_avg": 728.7,
+        "rabi_rainfall_avg": 39.4,
+        "irrigation_ratio_avg": 0.269
+      },
+      "Mandla": {
+        "n_avg": 11.8,
+        "p_avg": 4.0,
+        "k_avg": 0.2,
+        "annual_rainfall_avg": 1260.7,
+        "kharif_rainfall_avg": 1162.9,
+        "rabi_rainfall_avg": 91.1,
+        "irrigation_ratio_avg": 0.1
+      },
+      "Mandsaur": {
+        "n_avg": 41.5,
+        "p_avg": 27.3,
+        "k_avg": 4.9,
+        "annual_rainfall_avg": 827.1,
+        "kharif_rainfall_avg": 801.7,
+        "rabi_rainfall_avg": 20.6,
+        "irrigation_ratio_avg": 0.247
+      },
+      "Morena": {
+        "n_avg": 63.4,
+        "p_avg": 24.7,
+        "k_avg": 1.0,
+        "annual_rainfall_avg": 616.5,
+        "kharif_rainfall_avg": 531.1,
+        "rabi_rainfall_avg": 44.1,
+        "irrigation_ratio_avg": 0.351
+      },
+      "Narsinghpur": {
+        "n_avg": 31.3,
+        "p_avg": 17.1,
+        "k_avg": 3.2,
+        "annual_rainfall_avg": 1121.1,
+        "kharif_rainfall_avg": 1036.6,
+        "rabi_rainfall_avg": 69.6,
+        "irrigation_ratio_avg": 0.244
+      },
+      "Panna": {
+        "n_avg": 12.7,
+        "p_avg": 12.3,
+        "k_avg": 0.2,
+        "annual_rainfall_avg": 1032.3,
+        "kharif_rainfall_avg": 925.3,
+        "rabi_rainfall_avg": 78.6,
+        "irrigation_ratio_avg": 0.169
+      },
+      "Raisen": {
+        "n_avg": 39.2,
+        "p_avg": 27.3,
+        "k_avg": 1.2,
+        "annual_rainfall_avg": 1080.9,
+        "kharif_rainfall_avg": 1025.4,
+        "rabi_rainfall_avg": 59.3,
+        "irrigation_ratio_avg": 0.219
+      },
+      "Rajgarh": {
+        "n_avg": 30.4,
+        "p_avg": 24.2,
+        "k_avg": 1.3,
+        "annual_rainfall_avg": 908.7,
+        "kharif_rainfall_avg": 858.1,
+        "rabi_rainfall_avg": 35.5,
+        "irrigation_ratio_avg": 0.264
+      },
+      "Ratlam": {
+        "n_avg": 52.3,
+        "p_avg": 29.8,
+        "k_avg": 6.2,
+        "annual_rainfall_avg": 907.0,
+        "kharif_rainfall_avg": 864.0,
+        "rabi_rainfall_avg": 28.5,
+        "irrigation_ratio_avg": 0.227
+      },
+      "Rewa": {
+        "n_avg": 28.8,
+        "p_avg": 17.2,
+        "k_avg": 0.7,
+        "annual_rainfall_avg": 979.1,
+        "kharif_rainfall_avg": 856.1,
+        "rabi_rainfall_avg": 109.8,
+        "irrigation_ratio_avg": 0.092
+      },
+      "Sagar": {
+        "n_avg": 16.1,
+        "p_avg": 16.9,
+        "k_avg": 1.0,
+        "annual_rainfall_avg": 1094.2,
+        "kharif_rainfall_avg": 1001.0,
+        "rabi_rainfall_avg": 71.1,
+        "irrigation_ratio_avg": 0.187
+      },
+      "Satna": {
+        "n_avg": 36.2,
+        "p_avg": 24.9,
+        "k_avg": 1.0,
+        "annual_rainfall_avg": 1051.7,
+        "kharif_rainfall_avg": 924.3,
+        "rabi_rainfall_avg": 103.9,
+        "irrigation_ratio_avg": 0.16
+      },
+      "Sehore": {
+        "n_avg": 43.8,
+        "p_avg": 29.1,
+        "k_avg": 2.2,
+        "annual_rainfall_avg": 1028.2,
+        "kharif_rainfall_avg": 883.4,
+        "rabi_rainfall_avg": 60.6,
+        "irrigation_ratio_avg": 0.267
+      },
+      "Seoni / Shivani": {
+        "n_avg": 26.7,
+        "p_avg": 12.5,
+        "k_avg": 1.2,
+        "annual_rainfall_avg": 1076.1,
+        "kharif_rainfall_avg": 975.7,
+        "rabi_rainfall_avg": 99.0,
+        "irrigation_ratio_avg": 0.171
+      },
+      "Shahdol": {
+        "n_avg": 11.7,
+        "p_avg": 8.0,
+        "k_avg": 0.3,
+        "annual_rainfall_avg": 1023.3,
+        "kharif_rainfall_avg": 873.9,
+        "rabi_rainfall_avg": 98.1,
+        "irrigation_ratio_avg": 0.201
+      },
+      "Shajapur": {
+        "n_avg": 27.0,
+        "p_avg": 27.4,
+        "k_avg": 2.6,
+        "annual_rainfall_avg": 899.0,
+        "kharif_rainfall_avg": 850.1,
+        "rabi_rainfall_avg": 36.5,
+        "irrigation_ratio_avg": 0.142
+      },
+      "Shivpuri": {
+        "n_avg": 22.9,
+        "p_avg": 18.3,
+        "k_avg": 0.8,
+        "annual_rainfall_avg": 769.6,
+        "kharif_rainfall_avg": 716.6,
+        "rabi_rainfall_avg": 47.9,
+        "irrigation_ratio_avg": 0.292
+      },
+      "Sidhi": {
+        "n_avg": 14.3,
+        "p_avg": 7.3,
+        "k_avg": 0.2,
+        "annual_rainfall_avg": 1005.0,
+        "kharif_rainfall_avg": 879.1,
+        "rabi_rainfall_avg": 103.0,
+        "irrigation_ratio_avg": 0.073
+      },
+      "Tikamgarh": {
+        "n_avg": 24.8,
+        "p_avg": 19.3,
+        "k_avg": 0.6,
+        "annual_rainfall_avg": 812.9,
+        "kharif_rainfall_avg": 747.3,
+        "rabi_rainfall_avg": 55.1,
+        "irrigation_ratio_avg": 0.336
+      },
+      "Ujjain": {
+        "n_avg": 33.1,
+        "p_avg": 29.4,
+        "k_avg": 4.0,
+        "annual_rainfall_avg": 934.1,
+        "kharif_rainfall_avg": 871.6,
+        "rabi_rainfall_avg": 41.7,
+        "irrigation_ratio_avg": 0.263
+      },
+      "Vidisha": {
+        "n_avg": 20.6,
+        "p_avg": 20.2,
+        "k_avg": 0.8,
+        "annual_rainfall_avg": 1049.2,
+        "kharif_rainfall_avg": 984.4,
+        "rabi_rainfall_avg": 46.8,
+        "irrigation_ratio_avg": 0.183
+      }
+    }
+  },
+  "Maharashtra": {
+    "state_defaults": {
+      "n_avg": 59.0,
+      "p_avg": 31.7,
+      "k_avg": 17.6,
+      "annual_rainfall_avg": 982.5,
+      "kharif_rainfall_avg": 874.8,
+      "rabi_rainfall_avg": 81.2,
+      "irrigation_ratio_avg": 0.08
+    },
+    "districts": {
+      "Ahmednagar": {
+        "n_avg": 56.7,
+        "p_avg": 33.1,
+        "k_avg": 20.1,
+        "annual_rainfall_avg": 552.4,
+        "kharif_rainfall_avg": 461.0,
+        "rabi_rainfall_avg": 80.4,
+        "irrigation_ratio_avg": 0.096
+      },
+      "Akola": {
+        "n_avg": 35.1,
+        "p_avg": 25.9,
+        "k_avg": 7.2,
+        "annual_rainfall_avg": 807.1,
+        "kharif_rainfall_avg": 684.8,
+        "rabi_rainfall_avg": 83.4,
+        "irrigation_ratio_avg": 0.078
+      },
+      "Amarawati": {
+        "n_avg": 31.4,
+        "p_avg": 22.3,
+        "k_avg": 8.8,
+        "annual_rainfall_avg": 855.2,
+        "kharif_rainfall_avg": 755.5,
+        "rabi_rainfall_avg": 80.0,
+        "irrigation_ratio_avg": 0.054
+      },
+      "Aurangabad": {
+        "n_avg": 63.5,
+        "p_avg": 35.0,
+        "k_avg": 18.4,
+        "annual_rainfall_avg": 631.1,
+        "kharif_rainfall_avg": 560.0,
+        "rabi_rainfall_avg": 65.1,
+        "irrigation_ratio_avg": 0.071
+      },
+      "Beed": {
+        "n_avg": 45.8,
+        "p_avg": 27.0,
+        "k_avg": 13.0,
+        "annual_rainfall_avg": 615.3,
+        "kharif_rainfall_avg": 539.3,
+        "rabi_rainfall_avg": 66.8,
+        "irrigation_ratio_avg": 0.077
+      },
+      "Bhandara": {
+        "n_avg": 72.4,
+        "p_avg": 34.8,
+        "k_avg": 8.7,
+        "annual_rainfall_avg": 1336.7,
+        "kharif_rainfall_avg": 1077.8,
+        "rabi_rainfall_avg": 182.5,
+        "irrigation_ratio_avg": 0.104
+      },
+      "Buldhana": {
+        "n_avg": 57.0,
+        "p_avg": 37.8,
+        "k_avg": 11.9,
+        "annual_rainfall_avg": 718.6,
+        "kharif_rainfall_avg": 611.9,
+        "rabi_rainfall_avg": 78.4,
+        "irrigation_ratio_avg": 0.069
+      },
+      "Chandrapur": {
+        "n_avg": 54.4,
+        "p_avg": 28.4,
+        "k_avg": 6.9,
+        "annual_rainfall_avg": 1158.5,
+        "kharif_rainfall_avg": 1027.2,
+        "rabi_rainfall_avg": 96.0,
+        "irrigation_ratio_avg": 0.071
+      },
+      "Dhule": {
+        "n_avg": 75.0,
+        "p_avg": 26.1,
+        "k_avg": 19.1,
+        "annual_rainfall_avg": 607.8,
+        "kharif_rainfall_avg": 572.2,
+        "rabi_rainfall_avg": 28.6,
+        "irrigation_ratio_avg": 0.068
+      },
+      "Jalgaon": {
+        "n_avg": 78.7,
+        "p_avg": 37.4,
+        "k_avg": 40.6,
+        "annual_rainfall_avg": 666.3,
+        "kharif_rainfall_avg": 611.3,
+        "rabi_rainfall_avg": 40.4,
+        "irrigation_ratio_avg": 0.097
+      },
+      "Kolhapur": {
+        "n_avg": 96.8,
+        "p_avg": 45.2,
+        "k_avg": 40.9,
+        "annual_rainfall_avg": 1888.9,
+        "kharif_rainfall_avg": 1726.6,
+        "rabi_rainfall_avg": 115.3,
+        "irrigation_ratio_avg": 0.077
+      },
+      "Nagpur": {
+        "n_avg": 56.5,
+        "p_avg": 37.1,
+        "k_avg": 9.7,
+        "annual_rainfall_avg": 1019.0,
+        "kharif_rainfall_avg": 894.7,
+        "rabi_rainfall_avg": 82.2,
+        "irrigation_ratio_avg": 0.074
+      },
+      "Nanded": {
+        "n_avg": 78.8,
+        "p_avg": 49.9,
+        "k_avg": 23.8,
+        "annual_rainfall_avg": 731.9,
+        "kharif_rainfall_avg": 649.4,
+        "rabi_rainfall_avg": 64.7,
+        "irrigation_ratio_avg": 0.09
+      },
+      "Nasik": {
+        "n_avg": 78.8,
+        "p_avg": 45.0,
+        "k_avg": 19.4,
+        "annual_rainfall_avg": 1087.8,
+        "kharif_rainfall_avg": 986.8,
+        "rabi_rainfall_avg": 66.1,
+        "irrigation_ratio_avg": 0.073
+      },
+      "Osmanabad": {
+        "n_avg": 29.9,
+        "p_avg": 23.8,
+        "k_avg": 8.0,
+        "annual_rainfall_avg": 642.1,
+        "kharif_rainfall_avg": 543.6,
+        "rabi_rainfall_avg": 78.0,
+        "irrigation_ratio_avg": 0.052
+      },
+      "Parbhani": {
+        "n_avg": 34.4,
+        "p_avg": 21.1,
+        "k_avg": 8.7,
+        "annual_rainfall_avg": 877.4,
+        "kharif_rainfall_avg": 716.1,
+        "rabi_rainfall_avg": 85.8,
+        "irrigation_ratio_avg": 0.086
+      },
+      "Pune": {
+        "n_avg": 66.3,
+        "p_avg": 34.9,
+        "k_avg": 22.3,
+        "annual_rainfall_avg": 853.8,
+        "kharif_rainfall_avg": 756.8,
+        "rabi_rainfall_avg": 77.1,
+        "irrigation_ratio_avg": 0.089
+      },
+      "Raigad": {
+        "n_avg": 54.2,
+        "p_avg": 8.5,
+        "k_avg": 5.8,
+        "annual_rainfall_avg": 3129.1,
+        "kharif_rainfall_avg": 2994.0,
+        "rabi_rainfall_avg": 98.5,
+        "irrigation_ratio_avg": 0.058
+      },
+      "Ratnagiri": {
+        "n_avg": 27.6,
+        "p_avg": 7.8,
+        "k_avg": 5.7,
+        "annual_rainfall_avg": 3231.4,
+        "kharif_rainfall_avg": 3077.0,
+        "rabi_rainfall_avg": 142.5,
+        "irrigation_ratio_avg": 0.049
+      },
+      "Sangli": {
+        "n_avg": 74.7,
+        "p_avg": 39.4,
+        "k_avg": 36.0,
+        "annual_rainfall_avg": 632.3,
+        "kharif_rainfall_avg": 509.5,
+        "rabi_rainfall_avg": 94.8,
+        "irrigation_ratio_avg": 0.098
+      },
+      "Satara": {
+        "n_avg": 68.0,
+        "p_avg": 33.7,
+        "k_avg": 25.5,
+        "annual_rainfall_avg": 1045.6,
+        "kharif_rainfall_avg": 932.8,
+        "rabi_rainfall_avg": 84.3,
+        "irrigation_ratio_avg": 0.107
+      },
+      "Solapur": {
+        "n_avg": 62.6,
+        "p_avg": 32.8,
+        "k_avg": 23.1,
+        "annual_rainfall_avg": 551.8,
+        "kharif_rainfall_avg": 437.3,
+        "rabi_rainfall_avg": 87.9,
+        "irrigation_ratio_avg": 0.11
+      },
+      "Thane": {
+        "n_avg": 64.8,
+        "p_avg": 9.9,
+        "k_avg": 7.8,
+        "annual_rainfall_avg": 2578.8,
+        "kharif_rainfall_avg": 2514.4,
+        "rabi_rainfall_avg": 59.1,
+        "irrigation_ratio_avg": 0.003
+      },
+      "Wardha": {
+        "n_avg": 55.4,
+        "p_avg": 34.8,
+        "k_avg": 20.0,
+        "annual_rainfall_avg": 1027.9,
+        "kharif_rainfall_avg": 936.0,
+        "rabi_rainfall_avg": 72.1,
+        "irrigation_ratio_avg": 0.089
+      },
+      "Yeotmal": {
+        "n_avg": 47.1,
+        "p_avg": 28.1,
+        "k_avg": 11.7,
+        "annual_rainfall_avg": 892.7,
+        "kharif_rainfall_avg": 798.9,
+        "rabi_rainfall_avg": 87.0,
+        "irrigation_ratio_avg": 0.095
+      }
+    }
+  },
+  "Orissa": {
+    "state_defaults": {
+      "n_avg": 28.4,
+      "p_avg": 11.8,
+      "k_avg": 6.1,
+      "annual_rainfall_avg": 1462.2,
+      "kharif_rainfall_avg": 1188.2,
+      "rabi_rainfall_avg": 171.9,
+      "irrigation_ratio_avg": 0.218
+    },
+    "districts": {
+      "Balasore": {
+        "n_avg": 60.7,
+        "p_avg": 31.3,
+        "k_avg": 16.9,
+        "annual_rainfall_avg": 1657.1,
+        "kharif_rainfall_avg": 1220.0,
+        "rabi_rainfall_avg": 257.8,
+        "irrigation_ratio_avg": 0.396
+      },
+      "Bolangir": {
+        "n_avg": 24.3,
+        "p_avg": 10.3,
+        "k_avg": 5.9,
+        "annual_rainfall_avg": 1267.9,
+        "kharif_rainfall_avg": 1138.8,
+        "rabi_rainfall_avg": 74.5,
+        "irrigation_ratio_avg": 0.19
+      },
+      "Cuttack": {
+        "n_avg": 29.2,
+        "p_avg": 11.9,
+        "k_avg": 6.7,
+        "annual_rainfall_avg": 1638.3,
+        "kharif_rainfall_avg": 1273.0,
+        "rabi_rainfall_avg": 237.6,
+        "irrigation_ratio_avg": 0.253
+      },
+      "Dhenkanal": {
+        "n_avg": 14.8,
+        "p_avg": 6.4,
+        "k_avg": 3.1,
+        "annual_rainfall_avg": 1359.9,
+        "kharif_rainfall_avg": 1101.6,
+        "rabi_rainfall_avg": 166.9,
+        "irrigation_ratio_avg": 0.25
+      },
+      "Ganjam": {
+        "n_avg": 37.2,
+        "p_avg": 8.1,
+        "k_avg": 4.8,
+        "annual_rainfall_avg": 1251.5,
+        "kharif_rainfall_avg": 882.9,
+        "rabi_rainfall_avg": 268.0,
+        "irrigation_ratio_avg": 0.235
+      },
+      "Kalahandi": {
+        "n_avg": 26.8,
+        "p_avg": 12.0,
+        "k_avg": 5.7,
+        "annual_rainfall_avg": 1589.7,
+        "kharif_rainfall_avg": 1424.7,
+        "rabi_rainfall_avg": 88.9,
+        "irrigation_ratio_avg": 0.178
+      },
+      "Keonjhar": {
+        "n_avg": 17.3,
+        "p_avg": 9.0,
+        "k_avg": 2.6,
+        "annual_rainfall_avg": 1410.7,
+        "kharif_rainfall_avg": 1102.8,
+        "rabi_rainfall_avg": 175.0,
+        "irrigation_ratio_avg": 0.167
+      },
+      "Koraput": {
+        "n_avg": 30.6,
+        "p_avg": 10.6,
+        "k_avg": 7.0,
+        "annual_rainfall_avg": 1509.2,
+        "kharif_rainfall_avg": 1266.5,
+        "rabi_rainfall_avg": 156.0,
+        "irrigation_ratio_avg": 0.2
+      },
+      "Mayurbhanja": {
+        "n_avg": 23.0,
+        "p_avg": 10.1,
+        "k_avg": 4.3,
+        "annual_rainfall_avg": 1561.6,
+        "kharif_rainfall_avg": 1176.3,
+        "rabi_rainfall_avg": 203.3,
+        "irrigation_ratio_avg": 0.221
+      },
+      "Phulbani ( Kandhamal )": {
+        "n_avg": 13.6,
+        "p_avg": 5.3,
+        "k_avg": 2.5,
+        "annual_rainfall_avg": 1637.5,
+        "kharif_rainfall_avg": 1318.4,
+        "rabi_rainfall_avg": 195.4,
+        "irrigation_ratio_avg": 0.177
+      },
+      "Puri": {
+        "n_avg": 29.2,
+        "p_avg": 8.4,
+        "k_avg": 7.1,
+        "annual_rainfall_avg": 1381.8,
+        "kharif_rainfall_avg": 1040.1,
+        "rabi_rainfall_avg": 236.3,
+        "irrigation_ratio_avg": 0.235
+      },
+      "Sambalpur": {
+        "n_avg": 52.2,
+        "p_avg": 24.2,
+        "k_avg": 12.7,
+        "annual_rainfall_avg": 1488.4,
+        "kharif_rainfall_avg": 1334.9,
+        "rabi_rainfall_avg": 110.1,
+        "irrigation_ratio_avg": 0.219
+      },
+      "Sundargarh": {
+        "n_avg": 18.8,
+        "p_avg": 11.2,
+        "k_avg": 3.2,
+        "annual_rainfall_avg": 1303.0,
+        "kharif_rainfall_avg": 1148.8,
+        "rabi_rainfall_avg": 102.0,
+        "irrigation_ratio_avg": 0.182
+      }
+    }
+  },
+  "Punjab": {
+    "state_defaults": {
+      "n_avg": 162.8,
+      "p_avg": 46.1,
+      "k_avg": 6.1,
+      "annual_rainfall_avg": 483.0,
+      "kharif_rainfall_avg": 371.3,
+      "rabi_rainfall_avg": 79.5,
+      "irrigation_ratio_avg": 0.629
+    },
+    "districts": {
+      "Amritsar": {
+        "n_avg": 159.3,
+        "p_avg": 44.3,
+        "k_avg": 5.1,
+        "annual_rainfall_avg": 464.9,
+        "kharif_rainfall_avg": 346.1,
+        "rabi_rainfall_avg": 85.6,
+        "irrigation_ratio_avg": 0.652
+      },
+      "Bhatinda": {
+        "n_avg": 152.8,
+        "p_avg": 42.9,
+        "k_avg": 5.4,
+        "annual_rainfall_avg": 290.2,
+        "kharif_rainfall_avg": 223.5,
+        "rabi_rainfall_avg": 48.5,
+        "irrigation_ratio_avg": 0.785
+      },
+      "Ferozpur": {
+        "n_avg": 155.6,
+        "p_avg": 45.2,
+        "k_avg": 4.1,
+        "annual_rainfall_avg": 157.0,
+        "kharif_rainfall_avg": 113.6,
+        "rabi_rainfall_avg": 30.0,
+        "irrigation_ratio_avg": 0.612
+      },
+      "Gurdaspur": {
+        "n_avg": 156.8,
+        "p_avg": 35.8,
+        "k_avg": 4.1,
+        "annual_rainfall_avg": 945.9,
+        "kharif_rainfall_avg": 721.2,
+        "rabi_rainfall_avg": 177.4,
+        "irrigation_ratio_avg": 0.399
+      },
+      "Hoshiarpur": {
+        "n_avg": 128.8,
+        "p_avg": 44.5,
+        "k_avg": 7.7,
+        "annual_rainfall_avg": 594.5,
+        "kharif_rainfall_avg": 461.8,
+        "rabi_rainfall_avg": 95.5,
+        "irrigation_ratio_avg": 0.505
+      },
+      "Jalandhar": {
+        "n_avg": 165.5,
+        "p_avg": 55.9,
+        "k_avg": 11.5,
+        "annual_rainfall_avg": 512.2,
+        "kharif_rainfall_avg": 396.1,
+        "rabi_rainfall_avg": 79.9,
+        "irrigation_ratio_avg": 0.738
+      },
+      "Kapurthala": {
+        "n_avg": 153.1,
+        "p_avg": 49.0,
+        "k_avg": 9.1,
+        "annual_rainfall_avg": 492.4,
+        "kharif_rainfall_avg": 335.9,
+        "rabi_rainfall_avg": 115.8,
+        "irrigation_ratio_avg": 0.69
+      },
+      "Ludhiana": {
+        "n_avg": 201.1,
+        "p_avg": 55.3,
+        "k_avg": 6.4,
+        "annual_rainfall_avg": 477.8,
+        "kharif_rainfall_avg": 379.9,
+        "rabi_rainfall_avg": 65.3,
+        "irrigation_ratio_avg": 0.739
+      },
+      "Patiala": {
+        "n_avg": 189.8,
+        "p_avg": 42.3,
+        "k_avg": 5.1,
+        "annual_rainfall_avg": 564.0,
+        "kharif_rainfall_avg": 447.1,
+        "rabi_rainfall_avg": 74.1,
+        "irrigation_ratio_avg": 0.593
+      },
+      "Roopnagar / Ropar": {
+        "n_avg": 166.2,
+        "p_avg": 50.2,
+        "k_avg": 6.0,
+        "annual_rainfall_avg": 722.2,
+        "kharif_rainfall_avg": 575.3,
+        "rabi_rainfall_avg": 105.8,
+        "irrigation_ratio_avg": 0.48
+      },
+      "Sangrur": {
+        "n_avg": 159.4,
+        "p_avg": 42.4,
+        "k_avg": 3.7,
+        "annual_rainfall_avg": 281.7,
+        "kharif_rainfall_avg": 216.4,
+        "rabi_rainfall_avg": 42.9,
+        "irrigation_ratio_avg": 0.678
+      }
+    }
+  },
+  "Rajasthan": {
+    "state_defaults": {
+      "n_avg": 40.8,
+      "p_avg": 15.0,
+      "k_avg": 0.9,
+      "annual_rainfall_avg": 556.7,
+      "kharif_rainfall_avg": 512.0,
+      "rabi_rainfall_avg": 27.3,
+      "irrigation_ratio_avg": 0.381
+    },
+    "districts": {
+      "Ajmer": {
+        "n_avg": 16.6,
+        "p_avg": 10.2,
+        "k_avg": 0.5,
+        "annual_rainfall_avg": 477.4,
+        "kharif_rainfall_avg": 436.2,
+        "rabi_rainfall_avg": 25.0,
+        "irrigation_ratio_avg": 0.284
+      },
+      "Alwar": {
+        "n_avg": 49.5,
+        "p_avg": 17.7,
+        "k_avg": 1.1,
+        "annual_rainfall_avg": 579.9,
+        "kharif_rainfall_avg": 504.9,
+        "rabi_rainfall_avg": 45.0,
+        "irrigation_ratio_avg": 0.513
+      },
+      "Banswara": {
+        "n_avg": 76.2,
+        "p_avg": 14.3,
+        "k_avg": 0.8,
+        "annual_rainfall_avg": 845.0,
+        "kharif_rainfall_avg": 824.6,
+        "rabi_rainfall_avg": 15.3,
+        "irrigation_ratio_avg": 0.18
+      },
+      "Barmer": {
+        "n_avg": 4.4,
+        "p_avg": 0.9,
+        "k_avg": 0.1,
+        "annual_rainfall_avg": 357.9,
+        "kharif_rainfall_avg": 290.1,
+        "rabi_rainfall_avg": 25.0,
+        "irrigation_ratio_avg": 0.424
+      },
+      "Bharatpur": {
+        "n_avg": 67.0,
+        "p_avg": 24.9,
+        "k_avg": 1.6,
+        "annual_rainfall_avg": 579.3,
+        "kharif_rainfall_avg": 528.7,
+        "rabi_rainfall_avg": 35.0,
+        "irrigation_ratio_avg": 0.337
+      },
+      "Bhilwara": {
+        "n_avg": 39.7,
+        "p_avg": 15.4,
+        "k_avg": 0.8,
+        "annual_rainfall_avg": 609.2,
+        "kharif_rainfall_avg": 564.4,
+        "rabi_rainfall_avg": 29.6,
+        "irrigation_ratio_avg": 0.345
+      },
+      "Bikaner": {
+        "n_avg": 12.1,
+        "p_avg": 4.0,
+        "k_avg": 0.1,
+        "annual_rainfall_avg": 286.8,
+        "kharif_rainfall_avg": 232.3,
+        "rabi_rainfall_avg": 26.5,
+        "irrigation_ratio_avg": 0.574
+      },
+      "Bundi": {
+        "n_avg": 77.3,
+        "p_avg": 27.2,
+        "k_avg": 1.5,
+        "annual_rainfall_avg": 624.8,
+        "kharif_rainfall_avg": 584.0,
+        "rabi_rainfall_avg": 28.6,
+        "irrigation_ratio_avg": 0.386
+      },
+      "Chittorgarh": {
+        "n_avg": 65.9,
+        "p_avg": 27.8,
+        "k_avg": 2.2,
+        "annual_rainfall_avg": 741.8,
+        "kharif_rainfall_avg": 710.6,
+        "rabi_rainfall_avg": 21.3,
+        "irrigation_ratio_avg": 0.274
+      },
+      "Churu": {
+        "n_avg": 3.1,
+        "p_avg": 0.9,
+        "k_avg": 0.0,
+        "annual_rainfall_avg": 383.4,
+        "kharif_rainfall_avg": 314.8,
+        "rabi_rainfall_avg": 33.1,
+        "irrigation_ratio_avg": 0.475
+      },
+      "Dungarpur": {
+        "n_avg": 37.7,
+        "p_avg": 8.2,
+        "k_avg": 0.6,
+        "annual_rainfall_avg": 733.4,
+        "kharif_rainfall_avg": 713.9,
+        "rabi_rainfall_avg": 14.0,
+        "irrigation_ratio_avg": 0.196
+      },
+      "Ganganagar": {
+        "n_avg": 50.4,
+        "p_avg": 17.4,
+        "k_avg": 1.1,
+        "annual_rainfall_avg": 250.1,
+        "kharif_rainfall_avg": 199.3,
+        "rabi_rainfall_avg": 33.5,
+        "irrigation_ratio_avg": 0.683
+      },
+      "Jaipur": {
+        "n_avg": 42.1,
+        "p_avg": 18.1,
+        "k_avg": 1.5,
+        "annual_rainfall_avg": 508.8,
+        "kharif_rainfall_avg": 444.6,
+        "rabi_rainfall_avg": 35.4,
+        "irrigation_ratio_avg": 0.397
+      },
+      "Jaisalmer": {
+        "n_avg": 10.5,
+        "p_avg": 3.0,
+        "k_avg": 0.1,
+        "annual_rainfall_avg": 210.0,
+        "kharif_rainfall_avg": 190.0,
+        "rabi_rainfall_avg": 11.9,
+        "irrigation_ratio_avg": 0.493
+      },
+      "Jalore": {
+        "n_avg": 25.1,
+        "p_avg": 4.1,
+        "k_avg": 0.6,
+        "annual_rainfall_avg": 450.8,
+        "kharif_rainfall_avg": 424.8,
+        "rabi_rainfall_avg": 21.0,
+        "irrigation_ratio_avg": 0.437
+      },
+      "Jhalawar": {
+        "n_avg": 47.2,
+        "p_avg": 25.8,
+        "k_avg": 0.8,
+        "annual_rainfall_avg": 829.4,
+        "kharif_rainfall_avg": 797.8,
+        "rabi_rainfall_avg": 25.7,
+        "irrigation_ratio_avg": 0.331
+      },
+      "Jhunjhunu": {
+        "n_avg": 17.4,
+        "p_avg": 4.1,
+        "k_avg": 0.1,
+        "annual_rainfall_avg": 448.8,
+        "kharif_rainfall_avg": 382.9,
+        "rabi_rainfall_avg": 37.6,
+        "irrigation_ratio_avg": 0.519
+      },
+      "Jodhpur": {
+        "n_avg": 17.4,
+        "p_avg": 8.9,
+        "k_avg": 1.0,
+        "annual_rainfall_avg": 310.8,
+        "kharif_rainfall_avg": 276.0,
+        "rabi_rainfall_avg": 13.9,
+        "irrigation_ratio_avg": 0.449
+      },
+      "Kota": {
+        "n_avg": 81.2,
+        "p_avg": 39.0,
+        "k_avg": 1.9,
+        "annual_rainfall_avg": 778.2,
+        "kharif_rainfall_avg": 723.7,
+        "rabi_rainfall_avg": 34.1,
+        "irrigation_ratio_avg": 0.353
+      },
+      "Nagaur": {
+        "n_avg": 14.7,
+        "p_avg": 8.0,
+        "k_avg": 0.5,
+        "annual_rainfall_avg": 371.6,
+        "kharif_rainfall_avg": 338.0,
+        "rabi_rainfall_avg": 18.3,
+        "irrigation_ratio_avg": 0.519
+      },
+      "Pali": {
+        "n_avg": 15.8,
+        "p_avg": 8.2,
+        "k_avg": 0.5,
+        "annual_rainfall_avg": 466.9,
+        "kharif_rainfall_avg": 438.6,
+        "rabi_rainfall_avg": 18.1,
+        "irrigation_ratio_avg": 0.263
+      },
+      "Sikar": {
+        "n_avg": 19.0,
+        "p_avg": 7.2,
+        "k_avg": 0.4,
+        "annual_rainfall_avg": 447.7,
+        "kharif_rainfall_avg": 390.9,
+        "rabi_rainfall_avg": 28.6,
+        "irrigation_ratio_avg": 0.583
+      },
+      "Sirohi": {
+        "n_avg": 49.6,
+        "p_avg": 12.2,
+        "k_avg": 0.9,
+        "annual_rainfall_avg": 855.3,
+        "kharif_rainfall_avg": 784.8,
+        "rabi_rainfall_avg": 59.0,
+        "irrigation_ratio_avg": 0.35
+      },
+      "Swami Madhopur": {
+        "n_avg": 59.8,
+        "p_avg": 20.9,
+        "k_avg": 0.5,
+        "annual_rainfall_avg": 607.1,
+        "kharif_rainfall_avg": 555.4,
+        "rabi_rainfall_avg": 33.7,
+        "irrigation_ratio_avg": 0.288
+      },
+      "Tonk": {
+        "n_avg": 37.1,
+        "p_avg": 16.8,
+        "k_avg": 0.5,
+        "annual_rainfall_avg": 559.0,
+        "kharif_rainfall_avg": 510.7,
+        "rabi_rainfall_avg": 25.0,
+        "irrigation_ratio_avg": 0.308
+      },
+      "Udaipur": {
+        "n_avg": 51.5,
+        "p_avg": 16.2,
+        "k_avg": 1.8,
+        "annual_rainfall_avg": 678.4,
+        "kharif_rainfall_avg": 644.8,
+        "rabi_rainfall_avg": 18.6,
+        "irrigation_ratio_avg": 0.245
+      }
+    }
+  },
+  "Tamil Nadu": {
+    "state_defaults": {
+      "n_avg": 99.9,
+      "p_avg": 41.2,
+      "k_avg": 41.7,
+      "annual_rainfall_avg": 986.5,
+      "kharif_rainfall_avg": 304.6,
+      "rabi_rainfall_avg": 541.5,
+      "irrigation_ratio_avg": 0.326
+    },
+    "districts": {
+      "Chengalpattu MGR / Kanchipuram": {
+        "n_avg": 147.1,
+        "p_avg": 62.6,
+        "k_avg": 48.2,
+        "annual_rainfall_avg": 976.4,
+        "kharif_rainfall_avg": 426.6,
+        "rabi_rainfall_avg": 515.8,
+        "irrigation_ratio_avg": 0.596
+      },
+      "Coimbatore": {
+        "n_avg": 111.8,
+        "p_avg": 47.4,
+        "k_avg": 66.6,
+        "annual_rainfall_avg": 817.4,
+        "kharif_rainfall_avg": 306.7,
+        "rabi_rainfall_avg": 354.2,
+        "irrigation_ratio_avg": 0.319
+      },
+      "Kanyakumari": {
+        "n_avg": 72.9,
+        "p_avg": 37.8,
+        "k_avg": 42.9,
+        "annual_rainfall_avg": 1319.1,
+        "kharif_rainfall_avg": 489.5,
+        "rabi_rainfall_avg": 612.3,
+        "irrigation_ratio_avg": 0.499
+      },
+      "Madurai": {
+        "n_avg": 100.6,
+        "p_avg": 44.2,
+        "k_avg": 45.8,
+        "annual_rainfall_avg": 835.3,
+        "kharif_rainfall_avg": 247.0,
+        "rabi_rainfall_avg": 428.9,
+        "irrigation_ratio_avg": 0.296
+      },
+      "North Arcot / Vellore": {
+        "n_avg": 129.0,
+        "p_avg": 48.7,
+        "k_avg": 41.7,
+        "annual_rainfall_avg": 1125.2,
+        "kharif_rainfall_avg": 416.6,
+        "rabi_rainfall_avg": 587.6,
+        "irrigation_ratio_avg": 0.379
+      },
+      "Ramananthapuram": {
+        "n_avg": 55.6,
+        "p_avg": 20.3,
+        "k_avg": 13.9,
+        "annual_rainfall_avg": 955.2,
+        "kharif_rainfall_avg": 135.6,
+        "rabi_rainfall_avg": 667.5,
+        "irrigation_ratio_avg": 0.213
+      },
+      "Salem": {
+        "n_avg": 57.5,
+        "p_avg": 30.0,
+        "k_avg": 31.2,
+        "annual_rainfall_avg": 952.6,
+        "kharif_rainfall_avg": 411.5,
+        "rabi_rainfall_avg": 365.7,
+        "irrigation_ratio_avg": 0.29
+      },
+      "South Arcot / Cuddalore": {
+        "n_avg": 109.5,
+        "p_avg": 43.1,
+        "k_avg": 42.5,
+        "annual_rainfall_avg": 1230.7,
+        "kharif_rainfall_avg": 315.3,
+        "rabi_rainfall_avg": 801.8,
+        "irrigation_ratio_avg": 0.361
+      },
+      "Thanjavur": {
+        "n_avg": 100.6,
+        "p_avg": 35.4,
+        "k_avg": 34.3,
+        "annual_rainfall_avg": 1064.9,
+        "kharif_rainfall_avg": 268.4,
+        "rabi_rainfall_avg": 652.3,
+        "irrigation_ratio_avg": 0.34
+      },
+      "The Nilgiris": {
+        "n_avg": 53.4,
+        "p_avg": 16.0,
+        "k_avg": 45.9,
+        "annual_rainfall_avg": 1572.2,
+        "kharif_rainfall_avg": 816.6,
+        "rabi_rainfall_avg": 546.7,
+        "irrigation_ratio_avg": 0.051
+      },
+      "Thirunelveli": {
+        "n_avg": 94.2,
+        "p_avg": 36.8,
+        "k_avg": 34.7,
+        "annual_rainfall_avg": 961.0,
+        "kharif_rainfall_avg": 144.0,
+        "rabi_rainfall_avg": 659.8,
+        "irrigation_ratio_avg": 0.31
+      },
+      "Tiruchirapalli / Trichy": {
+        "n_avg": 117.6,
+        "p_avg": 52.9,
+        "k_avg": 58.1,
+        "annual_rainfall_avg": 780.8,
+        "kharif_rainfall_avg": 239.7,
+        "rabi_rainfall_avg": 402.8,
+        "irrigation_ratio_avg": 0.218
+      }
+    }
+  },
+  "Telangana": {
+    "state_defaults": {
+      "n_avg": 140.9,
+      "p_avg": 57.0,
+      "k_avg": 25.6,
+      "annual_rainfall_avg": 863.0,
+      "kharif_rainfall_avg": 696.2,
+      "rabi_rainfall_avg": 126.7,
+      "irrigation_ratio_avg": 0.292
+    },
+    "districts": {
+      "Adilabad": {
+        "n_avg": 84.3,
+        "p_avg": 31.3,
+        "k_avg": 10.3,
+        "annual_rainfall_avg": 1032.9,
+        "kharif_rainfall_avg": 892.6,
+        "rabi_rainfall_avg": 106.2,
+        "irrigation_ratio_avg": 0.325
+      },
+      "Hyderabad": {
+        "n_avg": 238.6,
+        "p_avg": 128.4,
+        "k_avg": 83.0,
+        "annual_rainfall_avg": 820.3,
+        "kharif_rainfall_avg": 627.0,
+        "rabi_rainfall_avg": 145.9,
+        "irrigation_ratio_avg": 0.226
+      },
+      "Karimnagar": {
+        "n_avg": 174.5,
+        "p_avg": 53.6,
+        "k_avg": 22.9,
+        "annual_rainfall_avg": 878.1,
+        "kharif_rainfall_avg": 734.4,
+        "rabi_rainfall_avg": 116.5,
+        "irrigation_ratio_avg": 0.461
+      },
+      "Khammam": {
+        "n_avg": 133.4,
+        "p_avg": 56.0,
+        "k_avg": 22.0,
+        "annual_rainfall_avg": 1175.7,
+        "kharif_rainfall_avg": 942.2,
+        "rabi_rainfall_avg": 163.5,
+        "irrigation_ratio_avg": 0.277
+      },
+      "Mahabubnagar": {
+        "n_avg": 67.8,
+        "p_avg": 37.0,
+        "k_avg": 9.9,
+        "annual_rainfall_avg": 644.8,
+        "kharif_rainfall_avg": 469.5,
+        "rabi_rainfall_avg": 122.4,
+        "irrigation_ratio_avg": 0.227
+      },
+      "Medak": {
+        "n_avg": 82.4,
+        "p_avg": 29.1,
+        "k_avg": 10.3,
+        "annual_rainfall_avg": 725.6,
+        "kharif_rainfall_avg": 579.5,
+        "rabi_rainfall_avg": 112.5,
+        "irrigation_ratio_avg": 0.225
+      },
+      "Nalgonda": {
+        "n_avg": 142.8,
+        "p_avg": 65.4,
+        "k_avg": 20.4,
+        "annual_rainfall_avg": 684.5,
+        "kharif_rainfall_avg": 501.7,
+        "rabi_rainfall_avg": 149.3,
+        "irrigation_ratio_avg": 0.21
+      },
+      "Nizamabad": {
+        "n_avg": 188.9,
+        "p_avg": 59.9,
+        "k_avg": 23.6,
+        "annual_rainfall_avg": 898.9,
+        "kharif_rainfall_avg": 765.6,
+        "rabi_rainfall_avg": 106.5,
+        "irrigation_ratio_avg": 0.398
+      },
+      "Warangal": {
+        "n_avg": 155.7,
+        "p_avg": 47.8,
+        "k_avg": 22.5,
+        "annual_rainfall_avg": 980.7,
+        "kharif_rainfall_avg": 810.3,
+        "rabi_rainfall_avg": 129.9,
+        "irrigation_ratio_avg": 0.28
+      }
+    }
+  },
+  "Uttar Pradesh": {
+    "state_defaults": {
+      "n_avg": 106.6,
+      "p_avg": 35.1,
+      "k_avg": 7.0,
+      "annual_rainfall_avg": 662.8,
+      "kharif_rainfall_avg": 520.2,
+      "rabi_rainfall_avg": 88.7,
+      "irrigation_ratio_avg": 0.347
+    },
+    "districts": {
+      "Agra": {
+        "n_avg": 106.5,
+        "p_avg": 43.3,
+        "k_avg": 8.1,
+        "annual_rainfall_avg": 391.4,
+        "kharif_rainfall_avg": 327.3,
+        "rabi_rainfall_avg": 45.6,
+        "irrigation_ratio_avg": 0.494
+      },
+      "Aligarh": {
+        "n_avg": 99.2,
+        "p_avg": 41.7,
+        "k_avg": 6.2,
+        "annual_rainfall_avg": 476.0,
+        "kharif_rainfall_avg": 377.7,
+        "rabi_rainfall_avg": 65.6,
+        "irrigation_ratio_avg": 0.71
+      },
+      "Allahabad": {
+        "n_avg": 133.0,
+        "p_avg": 41.2,
+        "k_avg": 7.6,
+        "annual_rainfall_avg": 760.1,
+        "kharif_rainfall_avg": 647.6,
+        "rabi_rainfall_avg": 87.9,
+        "irrigation_ratio_avg": 0.26
+      },
+      "Azamgarh": {
+        "n_avg": 89.8,
+        "p_avg": 27.0,
+        "k_avg": 5.1,
+        "annual_rainfall_avg": 757.4,
+        "kharif_rainfall_avg": 575.1,
+        "rabi_rainfall_avg": 123.1,
+        "irrigation_ratio_avg": 0.407
+      },
+      "Bahraich": {
+        "n_avg": 71.4,
+        "p_avg": 27.3,
+        "k_avg": 5.8,
+        "annual_rainfall_avg": 1015.8,
+        "kharif_rainfall_avg": 876.1,
+        "rabi_rainfall_avg": 77.4,
+        "irrigation_ratio_avg": 0.144
+      },
+      "Ballia": {
+        "n_avg": 93.3,
+        "p_avg": 27.6,
+        "k_avg": 6.1,
+        "annual_rainfall_avg": 597.9,
+        "kharif_rainfall_avg": 435.8,
+        "rabi_rainfall_avg": 109.3,
+        "irrigation_ratio_avg": 0.292
+      },
+      "Banda": {
+        "n_avg": 44.8,
+        "p_avg": 18.7,
+        "k_avg": 3.4,
+        "annual_rainfall_avg": 714.0,
+        "kharif_rainfall_avg": 554.3,
+        "rabi_rainfall_avg": 73.9,
+        "irrigation_ratio_avg": 0.213
+      },
+      "Barabanki": {
+        "n_avg": 115.1,
+        "p_avg": 37.3,
+        "k_avg": 7.7,
+        "annual_rainfall_avg": 742.1,
+        "kharif_rainfall_avg": 592.4,
+        "rabi_rainfall_avg": 87.8,
+        "irrigation_ratio_avg": 0.252
+      },
+      "Bareilly": {
+        "n_avg": 126.5,
+        "p_avg": 37.7,
+        "k_avg": 10.3,
+        "annual_rainfall_avg": 815.7,
+        "kharif_rainfall_avg": 707.0,
+        "rabi_rainfall_avg": 77.5,
+        "irrigation_ratio_avg": 0.347
+      },
+      "Basti": {
+        "n_avg": 119.1,
+        "p_avg": 34.4,
+        "k_avg": 7.4,
+        "annual_rainfall_avg": 846.3,
+        "kharif_rainfall_avg": 589.4,
+        "rabi_rainfall_avg": 140.6,
+        "irrigation_ratio_avg": 0.308
+      },
+      "Bijnor": {
+        "n_avg": 144.0,
+        "p_avg": 31.7,
+        "k_avg": 4.8,
+        "annual_rainfall_avg": 889.8,
+        "kharif_rainfall_avg": 737.8,
+        "rabi_rainfall_avg": 100.5,
+        "irrigation_ratio_avg": 0.447
+      },
+      "Budaun": {
+        "n_avg": 95.9,
+        "p_avg": 25.6,
+        "k_avg": 4.5,
+        "annual_rainfall_avg": 538.4,
+        "kharif_rainfall_avg": 404.1,
+        "rabi_rainfall_avg": 90.3,
+        "irrigation_ratio_avg": 0.323
+      },
+      "Buland Shahar": {
+        "n_avg": 125.8,
+        "p_avg": 37.4,
+        "k_avg": 6.5,
+        "annual_rainfall_avg": 435.8,
+        "kharif_rainfall_avg": 316.5,
+        "rabi_rainfall_avg": 80.8,
+        "irrigation_ratio_avg": 0.654
+      },
+      "Deoria": {
+        "n_avg": 131.2,
+        "p_avg": 43.4,
+        "k_avg": 11.0,
+        "annual_rainfall_avg": 694.9,
+        "kharif_rainfall_avg": 497.7,
+        "rabi_rainfall_avg": 138.9,
+        "irrigation_ratio_avg": 0.382
+      },
+      "Etah": {
+        "n_avg": 103.8,
+        "p_avg": 35.2,
+        "k_avg": 4.9,
+        "annual_rainfall_avg": 435.1,
+        "kharif_rainfall_avg": 350.3,
+        "rabi_rainfall_avg": 49.1,
+        "irrigation_ratio_avg": 0.55
+      },
+      "Etawah": {
+        "n_avg": 85.4,
+        "p_avg": 30.4,
+        "k_avg": 4.6,
+        "annual_rainfall_avg": 428.7,
+        "kharif_rainfall_avg": 364.9,
+        "rabi_rainfall_avg": 39.0,
+        "irrigation_ratio_avg": 0.428
+      },
+      "Faizabad": {
+        "n_avg": 146.3,
+        "p_avg": 44.0,
+        "k_avg": 7.2,
+        "annual_rainfall_avg": 774.1,
+        "kharif_rainfall_avg": 608.0,
+        "rabi_rainfall_avg": 86.4,
+        "irrigation_ratio_avg": 0.386
+      },
+      "Farrukhabad": {
+        "n_avg": 140.0,
+        "p_avg": 53.8,
+        "k_avg": 14.4,
+        "annual_rainfall_avg": 578.0,
+        "kharif_rainfall_avg": 433.9,
+        "rabi_rainfall_avg": 57.3,
+        "irrigation_ratio_avg": 0.442
+      },
+      "Fatehpur": {
+        "n_avg": 100.5,
+        "p_avg": 35.0,
+        "k_avg": 5.8,
+        "annual_rainfall_avg": 561.9,
+        "kharif_rainfall_avg": 393.9,
+        "rabi_rainfall_avg": 130.6,
+        "irrigation_ratio_avg": 0.244
+      },
+      "Ghazipur": {
+        "n_avg": 102.2,
+        "p_avg": 31.0,
+        "k_avg": 6.2,
+        "annual_rainfall_avg": 710.1,
+        "kharif_rainfall_avg": 569.0,
+        "rabi_rainfall_avg": 71.8,
+        "irrigation_ratio_avg": 0.298
+      },
+      "Gonda": {
+        "n_avg": 91.8,
+        "p_avg": 24.8,
+        "k_avg": 5.4,
+        "annual_rainfall_avg": 782.9,
+        "kharif_rainfall_avg": 570.8,
+        "rabi_rainfall_avg": 138.3,
+        "irrigation_ratio_avg": 0.272
+      },
+      "Gorakhpur": {
+        "n_avg": 120.8,
+        "p_avg": 40.4,
+        "k_avg": 11.4,
+        "annual_rainfall_avg": 1069.2,
+        "kharif_rainfall_avg": 917.4,
+        "rabi_rainfall_avg": 99.8,
+        "irrigation_ratio_avg": 0.304
+      },
+      "Hamirpur": {
+        "n_avg": 46.0,
+        "p_avg": 20.1,
+        "k_avg": 3.4,
+        "annual_rainfall_avg": 599.1,
+        "kharif_rainfall_avg": 475.7,
+        "rabi_rainfall_avg": 69.8,
+        "irrigation_ratio_avg": 0.213
+      },
+      "Hardoi": {
+        "n_avg": 81.2,
+        "p_avg": 29.4,
+        "k_avg": 4.5,
+        "annual_rainfall_avg": 637.1,
+        "kharif_rainfall_avg": 519.6,
+        "rabi_rainfall_avg": 55.4,
+        "irrigation_ratio_avg": 0.293
+      },
+      "Jalaun": {
+        "n_avg": 61.0,
+        "p_avg": 24.8,
+        "k_avg": 2.5,
+        "annual_rainfall_avg": 542.8,
+        "kharif_rainfall_avg": 446.5,
+        "rabi_rainfall_avg": 48.2,
+        "irrigation_ratio_avg": 0.25
+      },
+      "Jaunpur": {
+        "n_avg": 93.5,
+        "p_avg": 28.3,
+        "k_avg": 4.9,
+        "annual_rainfall_avg": 641.0,
+        "kharif_rainfall_avg": 460.1,
+        "rabi_rainfall_avg": 123.9,
+        "irrigation_ratio_avg": 0.32
+      },
+      "Jhansi": {
+        "n_avg": 50.9,
+        "p_avg": 25.8,
+        "k_avg": 2.8,
+        "annual_rainfall_avg": 615.4,
+        "kharif_rainfall_avg": 531.1,
+        "rabi_rainfall_avg": 69.6,
+        "irrigation_ratio_avg": 0.259
+      },
+      "Kanpur": {
+        "n_avg": 114.8,
+        "p_avg": 43.2,
+        "k_avg": 7.7,
+        "annual_rainfall_avg": 505.0,
+        "kharif_rainfall_avg": 343.1,
+        "rabi_rainfall_avg": 146.8,
+        "irrigation_ratio_avg": 0.263
+      },
+      "Kheri": {
+        "n_avg": 123.5,
+        "p_avg": 32.1,
+        "k_avg": 7.1,
+        "annual_rainfall_avg": 1008.4,
+        "kharif_rainfall_avg": 738.7,
+        "rabi_rainfall_avg": 105.9,
+        "irrigation_ratio_avg": 0.249
+      },
+      "Lucknow": {
+        "n_avg": 120.6,
+        "p_avg": 42.9,
+        "k_avg": 7.9,
+        "annual_rainfall_avg": 694.1,
+        "kharif_rainfall_avg": 597.8,
+        "rabi_rainfall_avg": 63.4,
+        "irrigation_ratio_avg": 0.285
+      },
+      "Mainpuri": {
+        "n_avg": 107.6,
+        "p_avg": 41.9,
+        "k_avg": 5.7,
+        "annual_rainfall_avg": 534.3,
+        "kharif_rainfall_avg": 344.6,
+        "rabi_rainfall_avg": 103.1,
+        "irrigation_ratio_avg": 0.606
+      },
+      "Mathura": {
+        "n_avg": 86.8,
+        "p_avg": 42.1,
+        "k_avg": 4.2,
+        "annual_rainfall_avg": 466.9,
+        "kharif_rainfall_avg": 373.9,
+        "rabi_rainfall_avg": 49.5,
+        "irrigation_ratio_avg": 0.623
+      },
+      "Meerut": {
+        "n_avg": 151.3,
+        "p_avg": 47.8,
+        "k_avg": 10.3,
+        "annual_rainfall_avg": 492.5,
+        "kharif_rainfall_avg": 392.7,
+        "rabi_rainfall_avg": 72.8,
+        "irrigation_ratio_avg": 0.573
+      },
+      "Mirzpur": {
+        "n_avg": 67.1,
+        "p_avg": 32.2,
+        "k_avg": 4.8,
+        "annual_rainfall_avg": 743.2,
+        "kharif_rainfall_avg": 569.7,
+        "rabi_rainfall_avg": 146.9,
+        "irrigation_ratio_avg": 0.18
+      },
+      "Moradabad": {
+        "n_avg": 146.5,
+        "p_avg": 31.0,
+        "k_avg": 10.4,
+        "annual_rainfall_avg": 781.7,
+        "kharif_rainfall_avg": 637.3,
+        "rabi_rainfall_avg": 95.3,
+        "irrigation_ratio_avg": 0.359
+      },
+      "Muzaffarnagar": {
+        "n_avg": 162.3,
+        "p_avg": 42.3,
+        "k_avg": 6.5,
+        "annual_rainfall_avg": 545.0,
+        "kharif_rainfall_avg": 425.1,
+        "rabi_rainfall_avg": 94.6,
+        "irrigation_ratio_avg": 0.44
+      },
+      "Pilibhit": {
+        "n_avg": 138.7,
+        "p_avg": 40.2,
+        "k_avg": 17.3,
+        "annual_rainfall_avg": 527.2,
+        "kharif_rainfall_avg": 380.3,
+        "rabi_rainfall_avg": 65.6,
+        "irrigation_ratio_avg": 0.317
+      },
+      "Pratapgarh": {
+        "n_avg": 106.6,
+        "p_avg": 31.7,
+        "k_avg": 5.7,
+        "annual_rainfall_avg": 635.0,
+        "kharif_rainfall_avg": 486.0,
+        "rabi_rainfall_avg": 82.5,
+        "irrigation_ratio_avg": 0.335
+      },
+      "Rae-Bareily": {
+        "n_avg": 97.5,
+        "p_avg": 32.3,
+        "k_avg": 5.1,
+        "annual_rainfall_avg": 544.5,
+        "kharif_rainfall_avg": 485.5,
+        "rabi_rainfall_avg": 34.6,
+        "irrigation_ratio_avg": 0.254
+      },
+      "Rampur": {
+        "n_avg": 106.1,
+        "p_avg": 26.6,
+        "k_avg": 10.5,
+        "annual_rainfall_avg": 443.3,
+        "kharif_rainfall_avg": 275.6,
+        "rabi_rainfall_avg": 86.1,
+        "irrigation_ratio_avg": 0.336
+      },
+      "Saharanpur": {
+        "n_avg": 151.7,
+        "p_avg": 41.5,
+        "k_avg": 10.3,
+        "annual_rainfall_avg": 796.9,
+        "kharif_rainfall_avg": 591.1,
+        "rabi_rainfall_avg": 174.3,
+        "irrigation_ratio_avg": 0.45
+      },
+      "Shahjahanpur": {
+        "n_avg": 135.9,
+        "p_avg": 43.5,
+        "k_avg": 11.7,
+        "annual_rainfall_avg": 712.3,
+        "kharif_rainfall_avg": 584.4,
+        "rabi_rainfall_avg": 77.3,
+        "irrigation_ratio_avg": 0.341
+      },
+      "Sitapur": {
+        "n_avg": 108.2,
+        "p_avg": 37.5,
+        "k_avg": 6.2,
+        "annual_rainfall_avg": 914.8,
+        "kharif_rainfall_avg": 682.6,
+        "rabi_rainfall_avg": 95.2,
+        "irrigation_ratio_avg": 0.262
+      },
+      "Sultanpur": {
+        "n_avg": 97.5,
+        "p_avg": 28.5,
+        "k_avg": 5.3,
+        "annual_rainfall_avg": 713.6,
+        "kharif_rainfall_avg": 622.3,
+        "rabi_rainfall_avg": 62.5,
+        "irrigation_ratio_avg": 0.25
+      },
+      "Unnao": {
+        "n_avg": 80.9,
+        "p_avg": 31.6,
+        "k_avg": 4.2,
+        "annual_rainfall_avg": 642.9,
+        "kharif_rainfall_avg": 465.5,
+        "rabi_rainfall_avg": 130.4,
+        "irrigation_ratio_avg": 0.281
+      },
+      "Varanasi": {
+        "n_avg": 138.6,
+        "p_avg": 53.4,
+        "k_avg": 13.8,
+        "annual_rainfall_avg": 723.2,
+        "kharif_rainfall_avg": 620.1,
+        "rabi_rainfall_avg": 70.7,
+        "irrigation_ratio_avg": 0.257
+      }
+    }
+  },
+  "Uttarakhand": {
+    "state_defaults": {
+      "n_avg": 46.1,
+      "p_avg": 10.9,
+      "k_avg": 4.0,
+      "annual_rainfall_avg": 1401.1,
+      "kharif_rainfall_avg": 1174.4,
+      "rabi_rainfall_avg": 157.5,
+      "irrigation_ratio_avg": 0.143
+    },
+    "districts": {
+      "Almorah": {
+        "n_avg": 2.9,
+        "p_avg": 0.9,
+        "k_avg": 0.3,
+        "annual_rainfall_avg": 943.7,
+        "kharif_rainfall_avg": 740.9,
+        "rabi_rainfall_avg": 144.6,
+        "irrigation_ratio_avg": 0.062
+      },
+      "Chamoli": {
+        "n_avg": 2.1,
+        "p_avg": 1.3,
+        "k_avg": 0.2,
+        "annual_rainfall_avg": 1222.9,
+        "kharif_rainfall_avg": 991.0,
+        "rabi_rainfall_avg": 126.7,
+        "irrigation_ratio_avg": 0.038
+      },
+      "Dehradun": {
+        "n_avg": 48.6,
+        "p_avg": 15.2,
+        "k_avg": 3.9,
+        "annual_rainfall_avg": 2084.6,
+        "kharif_rainfall_avg": 1858.1,
+        "rabi_rainfall_avg": 180.7,
+        "irrigation_ratio_avg": 0.207
+      },
+      "Garhwal": {
+        "n_avg": 3.1,
+        "p_avg": 1.1,
+        "k_avg": 0.1,
+        "annual_rainfall_avg": 1166.9,
+        "kharif_rainfall_avg": 1012.3,
+        "rabi_rainfall_avg": 115.8,
+        "irrigation_ratio_avg": 0.183
+      },
+      "Nainital": {
+        "n_avg": 255.1,
+        "p_avg": 51.1,
+        "k_avg": 22.2,
+        "annual_rainfall_avg": 1690.9,
+        "kharif_rainfall_avg": 1417.2,
+        "rabi_rainfall_avg": 162.3,
+        "irrigation_ratio_avg": 0.325
+      },
+      "Pithorgarh": {
+        "n_avg": 4.6,
+        "p_avg": 1.6,
+        "k_avg": 0.5,
+        "annual_rainfall_avg": 1357.5,
+        "kharif_rainfall_avg": 1061.3,
+        "rabi_rainfall_avg": 160.7,
+        "irrigation_ratio_avg": 0.061
+      },
+      "Tehri Garhwal": {
+        "n_avg": 1.3,
+        "p_avg": 0.7,
+        "k_avg": 0.1,
+        "annual_rainfall_avg": 984.4,
+        "kharif_rainfall_avg": 772.1,
+        "rabi_rainfall_avg": 167.2,
+        "irrigation_ratio_avg": 0.092
+      },
+      "Uttar Kashi": {
+        "n_avg": 4.2,
+        "p_avg": 5.2,
+        "k_avg": 0.9,
+        "annual_rainfall_avg": 1528.5,
+        "kharif_rainfall_avg": 1328.7,
+        "rabi_rainfall_avg": 196.8,
+        "irrigation_ratio_avg": 0.113
+      }
+    }
+  },
+  "West Bengal": {
+    "state_defaults": {
+      "n_avg": 72.1,
+      "p_avg": 39.7,
+      "k_avg": 31.7,
+      "annual_rainfall_avg": 1740.5,
+      "kharif_rainfall_avg": 1329.6,
+      "rabi_rainfall_avg": 183.2,
+      "irrigation_ratio_avg": 0.0
+    },
+    "districts": {
+      "24 Parganas": {
+        "n_avg": 67.3,
+        "p_avg": 35.1,
+        "k_avg": 28.2,
+        "annual_rainfall_avg": 1595.0,
+        "kharif_rainfall_avg": 1186.6,
+        "rabi_rainfall_avg": 229.1,
+        "irrigation_ratio_avg": 0.0
+      },
+      "Bankura": {
+        "n_avg": 62.6,
+        "p_avg": 45.7,
+        "k_avg": 30.5,
+        "annual_rainfall_avg": 1358.0,
+        "kharif_rainfall_avg": 1031.4,
+        "rabi_rainfall_avg": 159.2,
+        "irrigation_ratio_avg": 0.0
+      },
+      "Birbhum": {
+        "n_avg": 78.4,
+        "p_avg": 39.0,
+        "k_avg": 29.3,
+        "annual_rainfall_avg": 1400.3,
+        "kharif_rainfall_avg": 1078.4,
+        "rabi_rainfall_avg": 162.9,
+        "irrigation_ratio_avg": 0.0
+      },
+      "Burdwan": {
+        "n_avg": 91.7,
+        "p_avg": 56.4,
+        "k_avg": 41.7,
+        "annual_rainfall_avg": 1375.3,
+        "kharif_rainfall_avg": 1043.9,
+        "rabi_rainfall_avg": 164.8,
+        "irrigation_ratio_avg": 0.0
+      },
+      "Cooch Behar": {
+        "n_avg": 50.5,
+        "p_avg": 28.7,
+        "k_avg": 21.4,
+        "annual_rainfall_avg": 2866.9,
+        "kharif_rainfall_avg": 2095.6,
+        "rabi_rainfall_avg": 221.2,
+        "irrigation_ratio_avg": 0.0
+      },
+      "Darjeeling": {
+        "n_avg": 55.7,
+        "p_avg": 26.4,
+        "k_avg": 24.0,
+        "annual_rainfall_avg": 3013.3,
+        "kharif_rainfall_avg": 2464.5,
+        "rabi_rainfall_avg": 181.1,
+        "irrigation_ratio_avg": 0.0
+      },
+      "Hooghly": {
+        "n_avg": 106.8,
+        "p_avg": 78.0,
+        "k_avg": 65.7,
+        "annual_rainfall_avg": 1274.5,
+        "kharif_rainfall_avg": 973.1,
+        "rabi_rainfall_avg": 152.5,
+        "irrigation_ratio_avg": 0.0
+      },
+      "Howrah": {
+        "n_avg": 106.0,
+        "p_avg": 59.2,
+        "k_avg": 48.8,
+        "annual_rainfall_avg": 1475.1,
+        "kharif_rainfall_avg": 1113.2,
+        "rabi_rainfall_avg": 199.8,
+        "irrigation_ratio_avg": 0.0
+      },
+      "Jalpaiguri": {
+        "n_avg": 80.8,
+        "p_avg": 38.2,
+        "k_avg": 39.8,
+        "annual_rainfall_avg": 3451.5,
+        "kharif_rainfall_avg": 2722.6,
+        "rabi_rainfall_avg": 248.1,
+        "irrigation_ratio_avg": 0.0
+      },
+      "Malda": {
+        "n_avg": 98.2,
+        "p_avg": 43.2,
+        "k_avg": 38.5,
+        "annual_rainfall_avg": 1421.5,
+        "kharif_rainfall_avg": 1059.8,
+        "rabi_rainfall_avg": 180.0,
+        "irrigation_ratio_avg": 0.0
+      },
+      "Midnapur": {
+        "n_avg": 62.9,
+        "p_avg": 42.2,
+        "k_avg": 31.5,
+        "annual_rainfall_avg": 1568.9,
+        "kharif_rainfall_avg": 1191.8,
+        "rabi_rainfall_avg": 217.9,
+        "irrigation_ratio_avg": 0.0
+      },
+      "Murshidabad": {
+        "n_avg": 65.4,
+        "p_avg": 30.9,
+        "k_avg": 22.4,
+        "annual_rainfall_avg": 1364.5,
+        "kharif_rainfall_avg": 1040.2,
+        "rabi_rainfall_avg": 169.4,
+        "irrigation_ratio_avg": 0.0
+      },
+      "Nadia": {
+        "n_avg": 63.3,
+        "p_avg": 28.8,
+        "k_avg": 24.2,
+        "annual_rainfall_avg": 1281.8,
+        "kharif_rainfall_avg": 940.4,
+        "rabi_rainfall_avg": 175.7,
+        "irrigation_ratio_avg": 0.0
+      },
+      "Purulia": {
+        "n_avg": 35.8,
+        "p_avg": 23.4,
+        "k_avg": 15.9,
+        "annual_rainfall_avg": 1308.2,
+        "kharif_rainfall_avg": 1022.7,
+        "rabi_rainfall_avg": 154.6,
+        "irrigation_ratio_avg": 0.0
+      },
+      "West Dinajpur": {
+        "n_avg": 78.0,
+        "p_avg": 39.2,
+        "k_avg": 30.7,
+        "annual_rainfall_avg": 1518.0,
+        "kharif_rainfall_avg": 1084.3,
+        "rabi_rainfall_avg": 141.5,
+        "irrigation_ratio_avg": 0.0
+      }
+    }
+  }
+}

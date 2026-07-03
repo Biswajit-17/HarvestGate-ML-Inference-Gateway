@@ -1,0 +1,1622 @@
+{
+  "Andhra Pradesh": {
+    "max_state_area": 215.455,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "CASTOR": {
+        "mean_area": 7.076,
+        "acreage_weight": 0.3885
+      },
+      "CHICKPEA": {
+        "mean_area": 43.382,
+        "acreage_weight": 0.7053
+      },
+      "COTTON": {
+        "mean_area": 41.547,
+        "acreage_weight": 0.6975
+      },
+      "FINGER MILLET": {
+        "mean_area": 5.282,
+        "acreage_weight": 0.3417
+      },
+      "GROUNDNUT": {
+        "mean_area": 114.39,
+        "acreage_weight": 0.883
+      },
+      "LINSEED": {
+        "mean_area": 0.103,
+        "acreage_weight": 0.0183
+      },
+      "MAIZE": {
+        "mean_area": 18.516,
+        "acreage_weight": 0.5525
+      },
+      "PEARL MILLET": {
+        "mean_area": 5.536,
+        "acreage_weight": 0.3491
+      },
+      "PIGEONPEA": {
+        "mean_area": 19.934,
+        "acreage_weight": 0.5656
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 1.197,
+        "acreage_weight": 0.1464
+      },
+      "RICE": {
+        "mean_area": 215.455,
+        "acreage_weight": 1.0
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.559,
+        "acreage_weight": 0.0825
+      },
+      "SESAMUM": {
+        "mean_area": 7.057,
+        "acreage_weight": 0.388
+      },
+      "SORGHUM": {
+        "mean_area": 12.606,
+        "acreage_weight": 0.4855
+      },
+      "SOYABEAN": {
+        "mean_area": 0.303,
+        "acreage_weight": 0.0492
+      },
+      "SUGARCANE": {
+        "mean_area": 20.843,
+        "acreage_weight": 0.5735
+      },
+      "SUNFLOWER": {
+        "mean_area": 20.546,
+        "acreage_weight": 0.5709
+      },
+      "WHEAT": {
+        "mean_area": 0.254,
+        "acreage_weight": 0.042
+      }
+    }
+  },
+  "Assam": {
+    "max_state_area": 245.91,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "CASTOR": {
+        "mean_area": 0.124,
+        "acreage_weight": 0.0212
+      },
+      "CHICKPEA": {
+        "mean_area": 0.224,
+        "acreage_weight": 0.0367
+      },
+      "COTTON": {
+        "mean_area": 0.146,
+        "acreage_weight": 0.0247
+      },
+      "FINGER MILLET": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "GROUNDNUT": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "LINSEED": {
+        "mean_area": 0.917,
+        "acreage_weight": 0.1181
+      },
+      "MAIZE": {
+        "mean_area": 2.207,
+        "acreage_weight": 0.2116
+      },
+      "PEARL MILLET": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "PIGEONPEA": {
+        "mean_area": 0.63,
+        "acreage_weight": 0.0887
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 25.645,
+        "acreage_weight": 0.5959
+      },
+      "RICE": {
+        "mean_area": 245.91,
+        "acreage_weight": 1.0
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SESAMUM": {
+        "mean_area": 1.257,
+        "acreage_weight": 0.1478
+      },
+      "SORGHUM": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SOYABEAN": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SUGARCANE": {
+        "mean_area": 2.756,
+        "acreage_weight": 0.2402
+      },
+      "SUNFLOWER": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "WHEAT": {
+        "mean_area": 4.805,
+        "acreage_weight": 0.3192
+      }
+    }
+  },
+  "Bihar": {
+    "max_state_area": 302.874,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 1.385,
+        "acreage_weight": 0.1521
+      },
+      "CASTOR": {
+        "mean_area": 0.047,
+        "acreage_weight": 0.0081
+      },
+      "CHICKPEA": {
+        "mean_area": 6.857,
+        "acreage_weight": 0.3606
+      },
+      "COTTON": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "FINGER MILLET": {
+        "mean_area": 1.225,
+        "acreage_weight": 0.1399
+      },
+      "GROUNDNUT": {
+        "mean_area": 0.148,
+        "acreage_weight": 0.0242
+      },
+      "LINSEED": {
+        "mean_area": 2.266,
+        "acreage_weight": 0.207
+      },
+      "MAIZE": {
+        "mean_area": 58.678,
+        "acreage_weight": 0.7153
+      },
+      "PEARL MILLET": {
+        "mean_area": 0.686,
+        "acreage_weight": 0.0914
+      },
+      "PIGEONPEA": {
+        "mean_area": 2.689,
+        "acreage_weight": 0.2283
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 7.898,
+        "acreage_weight": 0.3824
+      },
+      "RICE": {
+        "mean_area": 302.874,
+        "acreage_weight": 1.0
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.104,
+        "acreage_weight": 0.0173
+      },
+      "SESAMUM": {
+        "mean_area": 0.277,
+        "acreage_weight": 0.0428
+      },
+      "SORGHUM": {
+        "mean_area": 0.451,
+        "acreage_weight": 0.0651
+      },
+      "SOYABEAN": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SUGARCANE": {
+        "mean_area": 16.019,
+        "acreage_weight": 0.4958
+      },
+      "SUNFLOWER": {
+        "mean_area": 1.61,
+        "acreage_weight": 0.1678
+      },
+      "WHEAT": {
+        "mean_area": 192.268,
+        "acreage_weight": 0.9208
+      }
+    }
+  },
+  "Chhattisgarh": {
+    "max_state_area": 647.963,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 0.828,
+        "acreage_weight": 0.0932
+      },
+      "CASTOR": {
+        "mean_area": 0.03,
+        "acreage_weight": 0.0045
+      },
+      "CHICKPEA": {
+        "mean_area": 39.721,
+        "acreage_weight": 0.5724
+      },
+      "COTTON": {
+        "mean_area": 0.053,
+        "acreage_weight": 0.008
+      },
+      "FINGER MILLET": {
+        "mean_area": 1.84,
+        "acreage_weight": 0.1612
+      },
+      "GROUNDNUT": {
+        "mean_area": 5.279,
+        "acreage_weight": 0.2837
+      },
+      "LINSEED": {
+        "mean_area": 8.854,
+        "acreage_weight": 0.3533
+      },
+      "MAIZE": {
+        "mean_area": 17.66,
+        "acreage_weight": 0.4519
+      },
+      "PEARL MILLET": {
+        "mean_area": 0.076,
+        "acreage_weight": 0.0113
+      },
+      "PIGEONPEA": {
+        "mean_area": 8.95,
+        "acreage_weight": 0.3548
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 8.38,
+        "acreage_weight": 0.3457
+      },
+      "RICE": {
+        "mean_area": 647.963,
+        "acreage_weight": 1.0
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.16,
+        "acreage_weight": 0.0229
+      },
+      "SESAMUM": {
+        "mean_area": 3.56,
+        "acreage_weight": 0.2343
+      },
+      "SORGHUM": {
+        "mean_area": 1.13,
+        "acreage_weight": 0.1167
+      },
+      "SOYABEAN": {
+        "mean_area": 11.648,
+        "acreage_weight": 0.3919
+      },
+      "SUGARCANE": {
+        "mean_area": 1.893,
+        "acreage_weight": 0.1641
+      },
+      "SUNFLOWER": {
+        "mean_area": 0.687,
+        "acreage_weight": 0.0807
+      },
+      "WHEAT": {
+        "mean_area": 16.705,
+        "acreage_weight": 0.4438
+      }
+    }
+  },
+  "Gujarat": {
+    "max_state_area": 142.597,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 1.862,
+        "acreage_weight": 0.2117
+      },
+      "CASTOR": {
+        "mean_area": 29.324,
+        "acreage_weight": 0.6869
+      },
+      "CHICKPEA": {
+        "mean_area": 8.442,
+        "acreage_weight": 0.452
+      },
+      "COTTON": {
+        "mean_area": 142.597,
+        "acreage_weight": 1.0
+      },
+      "FINGER MILLET": {
+        "mean_area": 6.096,
+        "acreage_weight": 0.3945
+      },
+      "GROUNDNUT": {
+        "mean_area": 100.325,
+        "acreage_weight": 0.9298
+      },
+      "LINSEED": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "MAIZE": {
+        "mean_area": 32.059,
+        "acreage_weight": 0.7043
+      },
+      "PEARL MILLET": {
+        "mean_area": 50.856,
+        "acreage_weight": 0.7949
+      },
+      "PIGEONPEA": {
+        "mean_area": 16.768,
+        "acreage_weight": 0.5793
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 16.069,
+        "acreage_weight": 0.5712
+      },
+      "RICE": {
+        "mean_area": 65.975,
+        "acreage_weight": 0.8464
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.1,
+        "acreage_weight": 0.0192
+      },
+      "SESAMUM": {
+        "mean_area": 17.371,
+        "acreage_weight": 0.586
+      },
+      "SORGHUM": {
+        "mean_area": 8.99,
+        "acreage_weight": 0.4634
+      },
+      "SOYABEAN": {
+        "mean_area": 7.645,
+        "acreage_weight": 0.4343
+      },
+      "SUGARCANE": {
+        "mean_area": 16.909,
+        "acreage_weight": 0.5809
+      },
+      "SUNFLOWER": {
+        "mean_area": 0.214,
+        "acreage_weight": 0.0391
+      },
+      "WHEAT": {
+        "mean_area": 52.326,
+        "acreage_weight": 0.8006
+      }
+    }
+  },
+  "Haryana": {
+    "max_state_area": 348.991,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 5.729,
+        "acreage_weight": 0.3254
+      },
+      "CASTOR": {
+        "mean_area": 1.516,
+        "acreage_weight": 0.1575
+      },
+      "CHICKPEA": {
+        "mean_area": 13.926,
+        "acreage_weight": 0.4614
+      },
+      "COTTON": {
+        "mean_area": 93.231,
+        "acreage_weight": 0.776
+      },
+      "FINGER MILLET": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "GROUNDNUT": {
+        "mean_area": 0.632,
+        "acreage_weight": 0.0837
+      },
+      "LINSEED": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "MAIZE": {
+        "mean_area": 2.345,
+        "acreage_weight": 0.2061
+      },
+      "PEARL MILLET": {
+        "mean_area": 76.998,
+        "acreage_weight": 0.7437
+      },
+      "PIGEONPEA": {
+        "mean_area": 3.858,
+        "acreage_weight": 0.2698
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 78.437,
+        "acreage_weight": 0.7468
+      },
+      "RICE": {
+        "mean_area": 166.433,
+        "acreage_weight": 0.8741
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SESAMUM": {
+        "mean_area": 0.545,
+        "acreage_weight": 0.0743
+      },
+      "SORGHUM": {
+        "mean_area": 15.755,
+        "acreage_weight": 0.4812
+      },
+      "SOYABEAN": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SUGARCANE": {
+        "mean_area": 17.362,
+        "acreage_weight": 0.4968
+      },
+      "SUNFLOWER": {
+        "mean_area": 1.986,
+        "acreage_weight": 0.1867
+      },
+      "WHEAT": {
+        "mean_area": 348.991,
+        "acreage_weight": 1.0
+      }
+    }
+  },
+  "Himachal Pradesh": {
+    "max_state_area": 35.821,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 2.251,
+        "acreage_weight": 0.327
+      },
+      "CASTOR": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "CHICKPEA": {
+        "mean_area": 0.131,
+        "acreage_weight": 0.0342
+      },
+      "COTTON": {
+        "mean_area": 0.024,
+        "acreage_weight": 0.0065
+      },
+      "FINGER MILLET": {
+        "mean_area": 0.354,
+        "acreage_weight": 0.084
+      },
+      "GROUNDNUT": {
+        "mean_area": 0.027,
+        "acreage_weight": 0.0074
+      },
+      "LINSEED": {
+        "mean_area": 0.512,
+        "acreage_weight": 0.1147
+      },
+      "MAIZE": {
+        "mean_area": 29.121,
+        "acreage_weight": 0.9443
+      },
+      "PEARL MILLET": {
+        "mean_area": 0.122,
+        "acreage_weight": 0.0319
+      },
+      "PIGEONPEA": {
+        "mean_area": 0.11,
+        "acreage_weight": 0.0289
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 0.986,
+        "acreage_weight": 0.1903
+      },
+      "RICE": {
+        "mean_area": 8.501,
+        "acreage_weight": 0.6243
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SESAMUM": {
+        "mean_area": 0.456,
+        "acreage_weight": 0.1041
+      },
+      "SORGHUM": {
+        "mean_area": 0.28,
+        "acreage_weight": 0.0685
+      },
+      "SOYABEAN": {
+        "mean_area": 0.1,
+        "acreage_weight": 0.0265
+      },
+      "SUGARCANE": {
+        "mean_area": 0.609,
+        "acreage_weight": 0.132
+      },
+      "SUNFLOWER": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "WHEAT": {
+        "mean_area": 35.821,
+        "acreage_weight": 1.0
+      }
+    }
+  },
+  "Jharkhand": {
+    "max_state_area": 185.618,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 1.87,
+        "acreage_weight": 0.2016
+      },
+      "CASTOR": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "CHICKPEA": {
+        "mean_area": 4.044,
+        "acreage_weight": 0.3095
+      },
+      "COTTON": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "FINGER MILLET": {
+        "mean_area": 7.566,
+        "acreage_weight": 0.4107
+      },
+      "GROUNDNUT": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "LINSEED": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "MAIZE": {
+        "mean_area": 14.225,
+        "acreage_weight": 0.5207
+      },
+      "PEARL MILLET": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "PIGEONPEA": {
+        "mean_area": 4.01,
+        "acreage_weight": 0.3082
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 3.434,
+        "acreage_weight": 0.2848
+      },
+      "RICE": {
+        "mean_area": 185.618,
+        "acreage_weight": 1.0
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SESAMUM": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SORGHUM": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SOYABEAN": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SUGARCANE": {
+        "mean_area": 0.226,
+        "acreage_weight": 0.039
+      },
+      "SUNFLOWER": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "WHEAT": {
+        "mean_area": 11.544,
+        "acreage_weight": 0.4837
+      }
+    }
+  },
+  "Karnataka": {
+    "max_state_area": 91.726,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "CASTOR": {
+        "mean_area": 1.17,
+        "acreage_weight": 0.1711
+      },
+      "CHICKPEA": {
+        "mean_area": 46.914,
+        "acreage_weight": 0.8542
+      },
+      "COTTON": {
+        "mean_area": 35.361,
+        "acreage_weight": 0.7933
+      },
+      "FINGER MILLET": {
+        "mean_area": 57.711,
+        "acreage_weight": 0.8991
+      },
+      "GROUNDNUT": {
+        "mean_area": 42.111,
+        "acreage_weight": 0.8309
+      },
+      "LINSEED": {
+        "mean_area": 1.341,
+        "acreage_weight": 0.1878
+      },
+      "MAIZE": {
+        "mean_area": 57.115,
+        "acreage_weight": 0.8969
+      },
+      "PEARL MILLET": {
+        "mean_area": 27.245,
+        "acreage_weight": 0.7376
+      },
+      "PIGEONPEA": {
+        "mean_area": 40.317,
+        "acreage_weight": 0.8215
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 0.388,
+        "acreage_weight": 0.0723
+      },
+      "RICE": {
+        "mean_area": 69.516,
+        "acreage_weight": 0.9396
+      },
+      "SAFFLOWER": {
+        "mean_area": 7.305,
+        "acreage_weight": 0.4673
+      },
+      "SESAMUM": {
+        "mean_area": 4.1,
+        "acreage_weight": 0.3597
+      },
+      "SORGHUM": {
+        "mean_area": 91.726,
+        "acreage_weight": 1.0
+      },
+      "SOYABEAN": {
+        "mean_area": 22.177,
+        "acreage_weight": 0.6939
+      },
+      "SUGARCANE": {
+        "mean_area": 23.617,
+        "acreage_weight": 0.7072
+      },
+      "SUNFLOWER": {
+        "mean_area": 41.93,
+        "acreage_weight": 0.83
+      },
+      "WHEAT": {
+        "mean_area": 25.507,
+        "acreage_weight": 0.7235
+      }
+    }
+  },
+  "Kerala": {
+    "max_state_area": 24.267,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "CASTOR": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "CHICKPEA": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "COTTON": {
+        "mean_area": 1.522,
+        "acreage_weight": 0.2865
+      },
+      "FINGER MILLET": {
+        "mean_area": 0.338,
+        "acreage_weight": 0.0901
+      },
+      "GROUNDNUT": {
+        "mean_area": 1.718,
+        "acreage_weight": 0.3097
+      },
+      "LINSEED": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "MAIZE": {
+        "mean_area": 0.046,
+        "acreage_weight": 0.014
+      },
+      "PEARL MILLET": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "PIGEONPEA": {
+        "mean_area": 0.336,
+        "acreage_weight": 0.0896
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "RICE": {
+        "mean_area": 24.267,
+        "acreage_weight": 1.0
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SESAMUM": {
+        "mean_area": 0.09,
+        "acreage_weight": 0.0268
+      },
+      "SORGHUM": {
+        "mean_area": 0.876,
+        "acreage_weight": 0.1948
+      },
+      "SOYABEAN": {
+        "mean_area": 0.01,
+        "acreage_weight": 0.0031
+      },
+      "SUGARCANE": {
+        "mean_area": 0.485,
+        "acreage_weight": 0.1224
+      },
+      "SUNFLOWER": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "WHEAT": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      }
+    }
+  },
+  "Madhya Pradesh": {
+    "max_state_area": 142.164,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 3.256,
+        "acreage_weight": 0.2917
+      },
+      "CASTOR": {
+        "mean_area": 0.36,
+        "acreage_weight": 0.0619
+      },
+      "CHICKPEA": {
+        "mean_area": 75.232,
+        "acreage_weight": 0.873
+      },
+      "COTTON": {
+        "mean_area": 47.534,
+        "acreage_weight": 0.7821
+      },
+      "FINGER MILLET": {
+        "mean_area": 0.939,
+        "acreage_weight": 0.1334
+      },
+      "GROUNDNUT": {
+        "mean_area": 6.927,
+        "acreage_weight": 0.4171
+      },
+      "LINSEED": {
+        "mean_area": 4.042,
+        "acreage_weight": 0.3259
+      },
+      "MAIZE": {
+        "mean_area": 25.934,
+        "acreage_weight": 0.6635
+      },
+      "PEARL MILLET": {
+        "mean_area": 10.781,
+        "acreage_weight": 0.4969
+      },
+      "PIGEONPEA": {
+        "mean_area": 11.582,
+        "acreage_weight": 0.5101
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 19.879,
+        "acreage_weight": 0.6122
+      },
+      "RICE": {
+        "mean_area": 52.077,
+        "acreage_weight": 0.8001
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.722,
+        "acreage_weight": 0.1094
+      },
+      "SESAMUM": {
+        "mean_area": 7.792,
+        "acreage_weight": 0.4379
+      },
+      "SORGHUM": {
+        "mean_area": 12.611,
+        "acreage_weight": 0.526
+      },
+      "SOYABEAN": {
+        "mean_area": 142.164,
+        "acreage_weight": 1.0
+      },
+      "SUGARCANE": {
+        "mean_area": 2.404,
+        "acreage_weight": 0.2467
+      },
+      "SUNFLOWER": {
+        "mean_area": 0.198,
+        "acreage_weight": 0.0363
+      },
+      "WHEAT": {
+        "mean_area": 127.018,
+        "acreage_weight": 0.9775
+      }
+    }
+  },
+  "Maharashtra": {
+    "max_state_area": 191.512,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "CASTOR": {
+        "mean_area": 0.77,
+        "acreage_weight": 0.1086
+      },
+      "CHICKPEA": {
+        "mean_area": 51.558,
+        "acreage_weight": 0.7532
+      },
+      "COTTON": {
+        "mean_area": 175.037,
+        "acreage_weight": 0.983
+      },
+      "FINGER MILLET": {
+        "mean_area": 13.012,
+        "acreage_weight": 0.5019
+      },
+      "GROUNDNUT": {
+        "mean_area": 15.083,
+        "acreage_weight": 0.5281
+      },
+      "LINSEED": {
+        "mean_area": 3.703,
+        "acreage_weight": 0.2943
+      },
+      "MAIZE": {
+        "mean_area": 30.224,
+        "acreage_weight": 0.6542
+      },
+      "PEARL MILLET": {
+        "mean_area": 69.409,
+        "acreage_weight": 0.8088
+      },
+      "PIGEONPEA": {
+        "mean_area": 46.602,
+        "acreage_weight": 0.7344
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 0.448,
+        "acreage_weight": 0.0704
+      },
+      "RICE": {
+        "mean_area": 69.35,
+        "acreage_weight": 0.8086
+      },
+      "SAFFLOWER": {
+        "mean_area": 11.888,
+        "acreage_weight": 0.486
+      },
+      "SESAMUM": {
+        "mean_area": 3.175,
+        "acreage_weight": 0.2717
+      },
+      "SORGHUM": {
+        "mean_area": 191.512,
+        "acreage_weight": 1.0
+      },
+      "SOYABEAN": {
+        "mean_area": 121.23,
+        "acreage_weight": 0.9136
+      },
+      "SUGARCANE": {
+        "mean_area": 36.295,
+        "acreage_weight": 0.688
+      },
+      "SUNFLOWER": {
+        "mean_area": 10.31,
+        "acreage_weight": 0.4611
+      },
+      "WHEAT": {
+        "mean_area": 42.86,
+        "acreage_weight": 0.7188
+      }
+    }
+  },
+  "Orissa": {
+    "max_state_area": 327.654,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "CASTOR": {
+        "mean_area": 1.127,
+        "acreage_weight": 0.1302
+      },
+      "CHICKPEA": {
+        "mean_area": 2.812,
+        "acreage_weight": 0.2309
+      },
+      "COTTON": {
+        "mean_area": 12.346,
+        "acreage_weight": 0.4471
+      },
+      "FINGER MILLET": {
+        "mean_area": 14.795,
+        "acreage_weight": 0.4762
+      },
+      "GROUNDNUT": {
+        "mean_area": 18.057,
+        "acreage_weight": 0.5086
+      },
+      "LINSEED": {
+        "mean_area": 2.35,
+        "acreage_weight": 0.2086
+      },
+      "MAIZE": {
+        "mean_area": 17.075,
+        "acreage_weight": 0.4995
+      },
+      "PEARL MILLET": {
+        "mean_area": 0.438,
+        "acreage_weight": 0.0627
+      },
+      "PIGEONPEA": {
+        "mean_area": 10.508,
+        "acreage_weight": 0.4216
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 8.647,
+        "acreage_weight": 0.3911
+      },
+      "RICE": {
+        "mean_area": 327.654,
+        "acreage_weight": 1.0
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.233,
+        "acreage_weight": 0.0362
+      },
+      "SESAMUM": {
+        "mean_area": 19.515,
+        "acreage_weight": 0.5213
+      },
+      "SORGHUM": {
+        "mean_area": 0.84,
+        "acreage_weight": 0.1053
+      },
+      "SOYABEAN": {
+        "mean_area": 0.151,
+        "acreage_weight": 0.0243
+      },
+      "SUGARCANE": {
+        "mean_area": 2.665,
+        "acreage_weight": 0.2241
+      },
+      "SUNFLOWER": {
+        "mean_area": 1.165,
+        "acreage_weight": 0.1333
+      },
+      "WHEAT": {
+        "mean_area": 1.096,
+        "acreage_weight": 0.1277
+      }
+    }
+  },
+  "Punjab": {
+    "max_state_area": 316.384,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 3.206,
+        "acreage_weight": 0.2494
+      },
+      "CASTOR": {
+        "mean_area": 0.107,
+        "acreage_weight": 0.0176
+      },
+      "CHICKPEA": {
+        "mean_area": 0.679,
+        "acreage_weight": 0.0899
+      },
+      "COTTON": {
+        "mean_area": 86.706,
+        "acreage_weight": 0.7767
+      },
+      "FINGER MILLET": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "GROUNDNUT": {
+        "mean_area": 0.794,
+        "acreage_weight": 0.1014
+      },
+      "LINSEED": {
+        "mean_area": 0.095,
+        "acreage_weight": 0.0158
+      },
+      "MAIZE": {
+        "mean_area": 14.81,
+        "acreage_weight": 0.4793
+      },
+      "PEARL MILLET": {
+        "mean_area": 1.158,
+        "acreage_weight": 0.1336
+      },
+      "PIGEONPEA": {
+        "mean_area": 0.639,
+        "acreage_weight": 0.0858
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 3.607,
+        "acreage_weight": 0.2652
+      },
+      "RICE": {
+        "mean_area": 250.502,
+        "acreage_weight": 0.9596
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SESAMUM": {
+        "mean_area": 1.099,
+        "acreage_weight": 0.1287
+      },
+      "SORGHUM": {
+        "mean_area": 0.562,
+        "acreage_weight": 0.0775
+      },
+      "SOYABEAN": {
+        "mean_area": 0.02,
+        "acreage_weight": 0.0034
+      },
+      "SUGARCANE": {
+        "mean_area": 9.304,
+        "acreage_weight": 0.4049
+      },
+      "SUNFLOWER": {
+        "mean_area": 1.813,
+        "acreage_weight": 0.1795
+      },
+      "WHEAT": {
+        "mean_area": 316.384,
+        "acreage_weight": 1.0
+      }
+    }
+  },
+  "Rajasthan": {
+    "max_state_area": 180.738,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 9.708,
+        "acreage_weight": 0.4557
+      },
+      "CASTOR": {
+        "mean_area": 7.472,
+        "acreage_weight": 0.4107
+      },
+      "CHICKPEA": {
+        "mean_area": 46.079,
+        "acreage_weight": 0.7404
+      },
+      "COTTON": {
+        "mean_area": 18.529,
+        "acreage_weight": 0.5712
+      },
+      "FINGER MILLET": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "GROUNDNUT": {
+        "mean_area": 14.2,
+        "acreage_weight": 0.5231
+      },
+      "LINSEED": {
+        "mean_area": 0.324,
+        "acreage_weight": 0.0539
+      },
+      "MAIZE": {
+        "mean_area": 46.67,
+        "acreage_weight": 0.7428
+      },
+      "PEARL MILLET": {
+        "mean_area": 180.738,
+        "acreage_weight": 1.0
+      },
+      "PIGEONPEA": {
+        "mean_area": 1.155,
+        "acreage_weight": 0.1476
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 94.021,
+        "acreage_weight": 0.8754
+      },
+      "RICE": {
+        "mean_area": 9.573,
+        "acreage_weight": 0.4533
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SESAMUM": {
+        "mean_area": 14.27,
+        "acreage_weight": 0.5239
+      },
+      "SORGHUM": {
+        "mean_area": 25.412,
+        "acreage_weight": 0.6293
+      },
+      "SOYABEAN": {
+        "mean_area": 69.722,
+        "acreage_weight": 0.8186
+      },
+      "SUGARCANE": {
+        "mean_area": 0.46,
+        "acreage_weight": 0.0727
+      },
+      "SUNFLOWER": {
+        "mean_area": 0.022,
+        "acreage_weight": 0.0042
+      },
+      "WHEAT": {
+        "mean_area": 101.599,
+        "acreage_weight": 0.8901
+      }
+    }
+  },
+  "Tamil Nadu": {
+    "max_state_area": 152.025,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "CASTOR": {
+        "mean_area": 1.002,
+        "acreage_weight": 0.138
+      },
+      "CHICKPEA": {
+        "mean_area": 0.795,
+        "acreage_weight": 0.1163
+      },
+      "COTTON": {
+        "mean_area": 12.579,
+        "acreage_weight": 0.5185
+      },
+      "FINGER MILLET": {
+        "mean_area": 9.472,
+        "acreage_weight": 0.4669
+      },
+      "GROUNDNUT": {
+        "mean_area": 42.368,
+        "acreage_weight": 0.7494
+      },
+      "LINSEED": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "MAIZE": {
+        "mean_area": 23.544,
+        "acreage_weight": 0.6362
+      },
+      "PEARL MILLET": {
+        "mean_area": 7.551,
+        "acreage_weight": 0.4266
+      },
+      "PIGEONPEA": {
+        "mean_area": 4.241,
+        "acreage_weight": 0.3293
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 0.107,
+        "acreage_weight": 0.0203
+      },
+      "RICE": {
+        "mean_area": 152.025,
+        "acreage_weight": 1.0
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SESAMUM": {
+        "mean_area": 6.084,
+        "acreage_weight": 0.3892
+      },
+      "SORGHUM": {
+        "mean_area": 30.178,
+        "acreage_weight": 0.6838
+      },
+      "SOYABEAN": {
+        "mean_area": 0.105,
+        "acreage_weight": 0.0199
+      },
+      "SUGARCANE": {
+        "mean_area": 28.07,
+        "acreage_weight": 0.6698
+      },
+      "SUNFLOWER": {
+        "mean_area": 1.446,
+        "acreage_weight": 0.1778
+      },
+      "WHEAT": {
+        "mean_area": 0.05,
+        "acreage_weight": 0.0097
+      }
+    }
+  },
+  "Telangana": {
+    "max_state_area": 162.007,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "CASTOR": {
+        "mean_area": 18.934,
+        "acreage_weight": 0.5875
+      },
+      "CHICKPEA": {
+        "mean_area": 9.84,
+        "acreage_weight": 0.4679
+      },
+      "COTTON": {
+        "mean_area": 129.642,
+        "acreage_weight": 0.9565
+      },
+      "FINGER MILLET": {
+        "mean_area": 1.716,
+        "acreage_weight": 0.1961
+      },
+      "GROUNDNUT": {
+        "mean_area": 21.395,
+        "acreage_weight": 0.6103
+      },
+      "LINSEED": {
+        "mean_area": 0.871,
+        "acreage_weight": 0.123
+      },
+      "MAIZE": {
+        "mean_area": 65.537,
+        "acreage_weight": 0.8241
+      },
+      "PEARL MILLET": {
+        "mean_area": 2.69,
+        "acreage_weight": 0.2563
+      },
+      "PIGEONPEA": {
+        "mean_area": 30.483,
+        "acreage_weight": 0.6772
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 0.202,
+        "acreage_weight": 0.0362
+      },
+      "RICE": {
+        "mean_area": 162.007,
+        "acreage_weight": 1.0
+      },
+      "SAFFLOWER": {
+        "mean_area": 2.029,
+        "acreage_weight": 0.2176
+      },
+      "SESAMUM": {
+        "mean_area": 4.298,
+        "acreage_weight": 0.3273
+      },
+      "SORGHUM": {
+        "mean_area": 27.102,
+        "acreage_weight": 0.6549
+      },
+      "SOYABEAN": {
+        "mean_area": 25.592,
+        "acreage_weight": 0.644
+      },
+      "SUGARCANE": {
+        "mean_area": 8.976,
+        "acreage_weight": 0.4516
+      },
+      "SUNFLOWER": {
+        "mean_area": 5.125,
+        "acreage_weight": 0.3558
+      },
+      "WHEAT": {
+        "mean_area": 1.449,
+        "acreage_weight": 0.1758
+      }
+    }
+  },
+  "Uttar Pradesh": {
+    "max_state_area": 207.876,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 4.289,
+        "acreage_weight": 0.3118
+      },
+      "CASTOR": {
+        "mean_area": 0.01,
+        "acreage_weight": 0.0019
+      },
+      "CHICKPEA": {
+        "mean_area": 14.385,
+        "acreage_weight": 0.5117
+      },
+      "COTTON": {
+        "mean_area": 0.516,
+        "acreage_weight": 0.0778
+      },
+      "FINGER MILLET": {
+        "mean_area": 0.038,
+        "acreage_weight": 0.0069
+      },
+      "GROUNDNUT": {
+        "mean_area": 2.477,
+        "acreage_weight": 0.2333
+      },
+      "LINSEED": {
+        "mean_area": 1.288,
+        "acreage_weight": 0.155
+      },
+      "MAIZE": {
+        "mean_area": 17.606,
+        "acreage_weight": 0.5473
+      },
+      "PEARL MILLET": {
+        "mean_area": 21.195,
+        "acreage_weight": 0.5803
+      },
+      "PIGEONPEA": {
+        "mean_area": 7.618,
+        "acreage_weight": 0.4032
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 13.09,
+        "acreage_weight": 0.4952
+      },
+      "RICE": {
+        "mean_area": 125.782,
+        "acreage_weight": 0.9065
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SESAMUM": {
+        "mean_area": 5.639,
+        "acreage_weight": 0.3544
+      },
+      "SORGHUM": {
+        "mean_area": 5.568,
+        "acreage_weight": 0.3524
+      },
+      "SOYABEAN": {
+        "mean_area": 1.352,
+        "acreage_weight": 0.1601
+      },
+      "SUGARCANE": {
+        "mean_area": 47.74,
+        "acreage_weight": 0.7276
+      },
+      "SUNFLOWER": {
+        "mean_area": 0.259,
+        "acreage_weight": 0.0431
+      },
+      "WHEAT": {
+        "mean_area": 207.876,
+        "acreage_weight": 1.0
+      }
+    }
+  },
+  "Uttarakhand": {
+    "max_state_area": 40.676,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 2.826,
+        "acreage_weight": 0.3597
+      },
+      "CASTOR": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "CHICKPEA": {
+        "mean_area": 0.139,
+        "acreage_weight": 0.0348
+      },
+      "COTTON": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "FINGER MILLET": {
+        "mean_area": 15.478,
+        "acreage_weight": 0.7512
+      },
+      "GROUNDNUT": {
+        "mean_area": 0.093,
+        "acreage_weight": 0.024
+      },
+      "LINSEED": {
+        "mean_area": 12.503,
+        "acreage_weight": 0.6979
+      },
+      "MAIZE": {
+        "mean_area": 3.303,
+        "acreage_weight": 0.3912
+      },
+      "PEARL MILLET": {
+        "mean_area": 0.01,
+        "acreage_weight": 0.0027
+      },
+      "PIGEONPEA": {
+        "mean_area": 0.331,
+        "acreage_weight": 0.0767
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 1.596,
+        "acreage_weight": 0.2558
+      },
+      "RICE": {
+        "mean_area": 32.666,
+        "acreage_weight": 0.9428
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.01,
+        "acreage_weight": 0.0027
+      },
+      "SESAMUM": {
+        "mean_area": 0.241,
+        "acreage_weight": 0.0579
+      },
+      "SORGHUM": {
+        "mean_area": 0.0,
+        "acreage_weight": 0.1
+      },
+      "SOYABEAN": {
+        "mean_area": 1.392,
+        "acreage_weight": 0.2339
+      },
+      "SUGARCANE": {
+        "mean_area": 14.244,
+        "acreage_weight": 0.7304
+      },
+      "SUNFLOWER": {
+        "mean_area": 0.04,
+        "acreage_weight": 0.0105
+      },
+      "WHEAT": {
+        "mean_area": 40.676,
+        "acreage_weight": 1.0
+      }
+    }
+  },
+  "West Bengal": {
+    "max_state_area": 372.773,
+    "crops": {
+      "BARLEY": {
+        "mean_area": 0.392,
+        "acreage_weight": 0.0558
+      },
+      "CASTOR": {
+        "mean_area": 0.068,
+        "acreage_weight": 0.0112
+      },
+      "CHICKPEA": {
+        "mean_area": 2.865,
+        "acreage_weight": 0.2282
+      },
+      "COTTON": {
+        "mean_area": 1.06,
+        "acreage_weight": 0.122
+      },
+      "FINGER MILLET": {
+        "mean_area": 2.242,
+        "acreage_weight": 0.1985
+      },
+      "GROUNDNUT": {
+        "mean_area": 3.936,
+        "acreage_weight": 0.2695
+      },
+      "LINSEED": {
+        "mean_area": 0.525,
+        "acreage_weight": 0.0713
+      },
+      "MAIZE": {
+        "mean_area": 6.76,
+        "acreage_weight": 0.3459
+      },
+      "PEARL MILLET": {
+        "mean_area": 0.082,
+        "acreage_weight": 0.0133
+      },
+      "PIGEONPEA": {
+        "mean_area": 0.24,
+        "acreage_weight": 0.0363
+      },
+      "RAPESEED AND MUSTARD": {
+        "mean_area": 29.505,
+        "acreage_weight": 0.577
+      },
+      "RICE": {
+        "mean_area": 372.773,
+        "acreage_weight": 1.0
+      },
+      "SAFFLOWER": {
+        "mean_area": 0.089,
+        "acreage_weight": 0.0144
+      },
+      "SESAMUM": {
+        "mean_area": 12.123,
+        "acreage_weight": 0.4346
+      },
+      "SORGHUM": {
+        "mean_area": 0.264,
+        "acreage_weight": 0.0395
+      },
+      "SOYABEAN": {
+        "mean_area": 0.152,
+        "acreage_weight": 0.0238
+      },
+      "SUGARCANE": {
+        "mean_area": 1.303,
+        "acreage_weight": 0.1409
+      },
+      "SUNFLOWER": {
+        "mean_area": 0.639,
+        "acreage_weight": 0.0834
+      },
+      "WHEAT": {
+        "mean_area": 23.059,
+        "acreage_weight": 0.5369
+      }
+    }
+  }
+}
