@@ -12,30 +12,41 @@ from openai import AsyncOpenAI
 
 logger = logging.getLogger("harvestgate.llm")
 
-EXPLANATION_PROMPT = """You are an agricultural advisor AI. Based on the following soil and climate conditions, a crop yield prediction model has estimated the yield.
+SYSTEM_PROMPT = "You are a professional, direct agronomic advisor. Output ONLY the practical, final advice directly. Never think out loud, write preambles, introduce your text, or add conversational filler. Start directly with the analysis."
 
-Input conditions:
+EXPLANATION_PROMPT = """Based on the following agricultural parameters and predicted yield, write a brief agronomic explanation and one specific recommendation for the farmer.
+
+Context parameters:
 - Crop: {crop}
 - State: {state}
 - Soil Type: {soil_type}
-- Nitrogen: {N:.2f} Kg/ha, Phosphorus: {P:.2f} Kg/ha, Potassium: {K:.2f} Kg/ha
+- Nitrogen (N): {N:.2f} Kg/ha
+- Phosphorus (P): {P:.2f} Kg/ha
+- Potassium (K): {K:.2f} Kg/ha
 - Annual Rainfall: {annual_rainfall:.2f} mm
 - Irrigation Ratio: {irrigation_ratio:.2f}
+- Predicted Yield: {predicted_yield:.2f} Kg/ha
 
-Predicted Yield: {predicted_yield:.2f} Kg/ha
+Required Output Format:
+Explanation: [Write 2-3 sentences explaining the yield based on soil water retention, nutrients, and rainfall]
+Recommendation: [Write 1 actionable practice the farmer should do to optimize yield]
 
-Provide a 2-3 sentence agronomic explanation of this prediction. Mention one specific actionable recommendation for the farmer. Keep it practical and concise."""
+Strict constraint: Do NOT write any introduction, thinking process, preamble, or filler. Start your response directly with the word 'Explanation:'."""
 
-RECOMMEND_PROMPT = """You are an agricultural advisor AI. Based on the soil type and historical climate conditions in a region, the suitability engine has recommended these Top 5 crops:
+RECOMMEND_PROMPT = """Based on the following regional parameters and the Top 5 recommended crops, write a suitability summary and one general practice for the farmer.
 
-State: {state}
-District: {district}
-Soil Type: {soil_type}
-
-Top 5 Crops Recommended (with suitability scores and yield potentials):
+Context parameters:
+- State: {state}
+- District: {district}
+- Soil Type: {soil_type}
+- Top 5 Crop Recommendations:
 {crop_list}
 
-Provide a 2-3 sentence agronomic summary of why these crops are highly suitable for this region. Mention one actionable practice the farmer should follow. Keep it practical and concise."""
+Required Output Format:
+Suitability Summary: [Write 2-3 sentences explaining why these crops match the region's climate/soil profile]
+Recommendation: [Write 1 general soil/crop management practice the farmer should follow]
+
+Strict constraint: Do NOT write any introduction, thinking process, preamble, or filler. Start your response directly with the word 'Suitability Summary:'."""
 
 
 class OpenRouterRunner:
@@ -85,7 +96,8 @@ class OpenRouterRunner:
             P=env_profile.get("P (Kg/ha)", 0.0),
             K=env_profile.get("K (Kg/ha)", 0.0),
             annual_rainfall=env_profile.get("Annual Rainfall (mm)", 0.0),
-            irrigation_ratio=env_profile.get("Irrigation Ratio", 0.0)
+            irrigation_ratio=env_profile.get("Irrigation Ratio", 0.0),
+            predicted_yield=predicted_yield
         )
         return await self._call_llm(prompt)
 
@@ -121,6 +133,7 @@ class OpenRouterRunner:
             response = await self.client.chat.completions.create(
                 model=self.model,
                 messages=[
+                    {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": prompt}
                 ],
                 max_tokens=200,      # Constrain token generation to limit response size

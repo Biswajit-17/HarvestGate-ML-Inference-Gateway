@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarvestGate — ML Inference & Agronomic Advisory Gateway</title>
+    <!-- Google Fonts for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+                <div class="logo-text">
+                    <h1>HarvestGate</h1>
+                    <span class="logo-sub">ML Inference & Observation Layer</span>
+                </div>
+            </div>
+            <div class="system-status">
+                <span class="status-indicator"></span>
+                <span class="status-text">Gateway Online</span>
+            </div>
+        </header>
+
+        <!-- Main Workspace -->
+        <main class="workspace-grid">
+            
+            <!-- Left Side: Parameter Panel -->
+            <section class="panel input-panel">
+                <div class="panel-header">
+                    <h2>Configuration</h2>
+                    <p class="panel-desc">Define ecological, soil, and climatic parameters.</p>
+                </div>
+
+                <!-- Navigation Tabs -->
+                <div class="tabs">
+                    <button id="tab-predict" class="tab-btn active">Yield Simulator</button>
+                    <button id="tab-recommend" class="tab-btn">Crop Recommender</button>
+                </div>
+
+                <form id="inference-form" class="parameter-form">
+                    
+                    <!-- Section 1: Soil Composition -->
+                    <div class="form-section">
+                        <h3 class="section-title">Soil Composition</h3>
+                        
+                        <div class="control-group">
+                            <div class="control-label">
+                                <label for="input-n">Nitrogen (N)</label>
+                                <span class="badge unit-badge">Kg/ha</span>
+                            </div>
+                            <div class="range-wrapper">
+                                <input type="range" id="slider-n" min="0" max="450" value="80" step="1">
+                                <input type="number" id="input-n" min="0" max="450" value="80" class="num-input">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <label for="input-p">Phosphorus (P)</label>
+                                <span class="badge unit-badge">Kg/ha</span>
+                            </div>
+                            <div class="range-wrapper">
+                                <input type="range" id="slider-p" min="0" max="250" value="40" step="1">
+                                <input type="number" id="input-p" min="0" max="250" value="40" class="num-input">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <label for="input-k">Potassium (K)</label>
+                                <span class="badge unit-badge">Kg/ha</span>
+                            </div>
+                            <div class="range-wrapper">
+                                <input type="range" id="slider-k" min="0" max="220" value="25" step="1">
+                                <input type="number" id="input-k" min="0" max="220" value="25" class="num-input">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 2: Climate Patterns -->
+                    <div class="form-section">
+                        <div class="section-header-row">
+                            <h3 class="section-title">Climatic Data</h3>
+                            <button type="button" id="btn-climate-resolve" class="btn-secondary">Auto-Resolve from State</button>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <label for="input-annual-rainfall">Annual Rainfall</label>
+                                <span class="badge unit-badge">mm</span>
+                            </div>
+                            <div class="range-wrapper">
+                                <input type="range" id="slider-annual-rainfall" min="5" max="5000" value="1100" step="5">
+                                <input type="number" id="input-annual-rainfall" min="5" max="5000" value="1100" class="num-input">
+                            </div>
+                        </div>
+
+                        <div class="grid-columns">
+                            <div class="control-group">
+                                <label for="input-kharif-rainfall" class="control-label-simple">Kharif Rainfall (mm)</label>
+                                <input type="number" id="input-kharif-rainfall" min="0" max="4000" value="800" class="num-input-full">
+                            </div>
+                            <div class="control-group">
+                                <label for="input-rabi-rainfall" class="control-label-simple">Rabi Rainfall (mm)</label>
+                                <input type="number" id="input-rabi-rainfall" min="0" max="3800" value="200" class="num-input-full">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <label for="input-irrigation-ratio">Irrigation Ratio</label>
+                                <span class="badge unit-badge">Ratio</span>
+                            </div>
+                            <div class="range-wrapper">
+                                <input type="range" id="slider-irrigation-ratio" min="0.0" max="1.0" value="0.35" step="0.01">
+                                <input type="number" id="input-irrigation-ratio" min="0.0" max="1.0" value="0.35" step="0.01" class="num-input">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 3: Context Parameters -->
+                    <div class="form-section">
+                        <h3 class="section-title">Ecology & Crop Selection</h3>
+
+                        <div class="control-group">
+                            <label for="select-state" class="control-label-simple">State Name</label>
+                            <select id="select-state" class="select-input">
+                                <option value="Uttar Pradesh" selected>Uttar Pradesh</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Odisha">Odisha</option>
+                                <option value="Punjab">Punjab</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Uttarakhand">Uttarakhand</option>
+                                <option value="West Bengal">West Bengal</option>
+                            </select>
+                        </div>
+
+                        <div class="control-group">
+                            <label for="select-soil" class="control-label-simple">Primary Soil Type</label>
+                            <select id="select-soil" class="select-input">
+                                <option value="VERTISOLS" selected>VERTISOLS (Clay/Black Soil)</option>
+                                <option value="ALFISOLS">ALFISOLS (Red Sandy Soil)</option>
+                                <option value="ARIDISOLS">ARIDISOLS (Desert/Saline Soil)</option>
+                                <option value="ENTISOLS">ENTISOLS (Alluvial/New Soil)</option>
+                                <option value="INCEPTISOLS">INCEPTISOLS (Loamy/Brown Soil)</option>
+                                <option value="PSAMMENTS">PSAMMENTS (Sandy Soil)</option>
+                                <option value="UDALFS">UDALFS (Forest/Humid Soil)</option>
+                                <option value="UDUPTS/UDALFS">UDUPTS/UDALFS (Hilly/Acidic Soil)</option>
+                                <option value="USTALF/USTOLLS">USTALF/USTOLLS (Semiarid Clay Soil)</option>
+                                <option value="VRTIC SOILS">VRTIC SOILS (Shrink-Swell Clay)</option>
+                                <option value="UNKNOWN">UNKNOWN / OTHER</option>
+                            </select>
+                        </div>
+
+                        <div class="control-group" id="group-crop">
+                            <label for="select-crop" class="control-label-simple">Target Crop</label>
+                            <select id="select-crop" class="select-input">
+                                <option value="RICE" selected>Rice</option>
+                                <option value="WHEAT">Wheat</option>
+                                <option value="MAIZE">Maize (Corn)</option>
+                                <option value="BARLEY">Barley</option>
+                                <option value="SORGHUM">Sorghum (Jowar)</option>
+                                <option value="PEARL MILLET">Pearl Millet (Bajra)</option>
+                                <option value="FINGER MILLET">Finger Millet (Ragi)</option>
+                                <option value="CHICKPEA">Chickpea (Gram)</option>
+                                <option value="PIGEONPEA">Pigeonpea (Tur/Arhar)</option>
+                                <option value="GROUNDNUT">Groundnut</option>
+                                <option value="CASTOR">Castor</option>
+                                <option value="SESAMUM">Sesamum (Til)</option>
+                                <option value="RAPESEED AND MUSTARD">Rapeseed & Mustard</option>
+                                <option value="SOYABEAN">Soybean</option>
+                                <option value="SUNFLOWER">Sunflower</option>
+                                <option value="SAFFLOWER">Safflower (Kusum)</option>
+                                <option value="LINSEED">Linseed (Alsi)</option>
+                                <option value="SUGARCANE">Sugarcane</option>
+                                <option value="COTTON">Cotton</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Toggle Section: LLM Advisory -->
+                    <div class="advisory-toggle-row">
+                        <div class="toggle-text">
+                            <span class="toggle-title">AI Agronomic Advisory</span>
+                            <span class="toggle-desc">Generate an explanation using OpenRouter LLM.</span>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox" id="check-advisory" checked>
+                            <span class="switch-slider"></span>
+                        </label>
+                    </div>
+
+                    <!-- Run Button -->
+                    <button type="submit" id="btn-run" class="btn-primary">Execute Inference Pipeline</button>
+                </form>
+            </section>
+
+            <!-- Right Side: Results Panel -->
+            <section class="panel output-panel">
+                <div class="panel-header">
+                    <h2>Output Dashboard</h2>
+                    <p class="panel-desc">Real-time model insights and suitability reports.</p>
+                </div>
+
+                <!-- Main Output Container -->
+                <div id="output-container" class="output-container empty">
+                    
+                    <!-- State 1: Awaiting input -->
+                    <div id="output-state-empty" class="state-view">
+                        <svg class="state-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M18.36 6.64a9 9 0 1 1-12.73 0M12 2v10"/>
+                        </svg>
+                        <h3>Awaiting Execution</h3>
+                        <p>Configure parameters in the left panel and execute to run local ONNX simulation and request AI advisories.</p>
+                    </div>
+
+                    <!-- State 2: Loading -->
+                    <div id="output-state-loading" class="state-view hidden">
+                        <div class="spinner"></div>
+                        <h3 id="loader-title">Executing Inference...</h3>
+                        <p id="loader-desc">Running local preprocessors and evaluating ML predictions...</p>
+                    </div>
+
+                    <!-- State 3: Yield Result -->
+                    <div id="output-state-predict" class="state-view hidden">
+                        <div class="result-highlight-card">
+                            <div class="result-meta">
+                                <span class="result-crop-name" id="res-predict-crop">Rice</span>
+                                <span class="badge success-badge">Local ONNX Output</span>
+                            </div>
+                            <div class="result-value-container">
+                                <span class="result-number" id="res-predict-yield">3,240.5</span>
+                                <span class="result-unit">Kg/ha</span>
+                            </div>
+                            <div class="result-progress-row">
+                                <div class="progress-info">
+                                    <span>Ecological Suitability Score</span>
+                                    <span class="progress-val" id="res-predict-suitability">98.5%</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" id="res-predict-bar" style="width: 98.5%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Secondary info block -->
+                        <div class="data-grid">
+                            <div class="data-card">
+                                <span class="data-label">Global Target Yield Limit</span>
+                                <span class="data-val" id="res-predict-max">4,200 Kg/ha</span>
+                            </div>
+                            <div class="data-card">
+                                <span class="data-label">Gateway Latency</span>
+                                <span class="data-val" id="res-predict-latency">4.2 ms</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- State 4: Recommendation Results -->
+                    <div id="output-state-recommend" class="state-view hidden">
+                        <div class="recommendations-header">
+                            <h3>Ecological Suitability Rankings</h3>
+                            <span class="badge success-badge">Top 5 Crops Recommended</span>
+                        </div>
+                        
+                        <div class="recommendations-list" id="res-recommend-list">
+                            <!-- Populated dynamically via JS -->
+                        </div>
+
+                        <div class="data-grid" style="margin-top: 1.5rem;">
+                            <div class="data-card">
+                                <span class="data-label">Evaluated Candidates</span>
+                                <span class="data-val">19 Crops</span>
+                            </div>
+                            <div class="data-card">
+                                <span class="data-label">Pipeline Latency</span>
+                                <span class="data-val" id="res-recommend-latency">12.5 ms</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Shared: LLM Advisory Panel -->
+                    <div id="advisory-panel" class="advisory-panel hidden">
+                        <div class="advisory-header">
+                            <svg class="advisory-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                            <span>Agronomic Explanation & Advice</span>
+                        </div>
+                        <div class="advisory-content" id="advisory-text">
+                            <!-- Renders LLM explanation here safely -->
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Rate Limit Overlay Modal (XSS & Rate Limit Hardening) -->
+    <div id="overlay-429" class="overlay hidden">
+        <div class="overlay-card">
+            <svg class="overlay-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+            <h2>Rate Limit Exceeded</h2>
+            <p>You have triggered the gateway's rate limit guard. Please wait before submitting another request to protect API resources.</p>
+            <div class="countdown-circle">
+                <span id="countdown-timer">60</span>
+                <span class="countdown-sub">seconds</span>
+            </div>
+            <button id="btn-overlay-close" class="btn-primary" disabled>Wait for Cooldown</button>
+        </div>
+    </div>
+
+    <script src="/static/index.js"></script>
+</body>
+</html>

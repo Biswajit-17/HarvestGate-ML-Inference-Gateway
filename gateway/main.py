@@ -15,12 +15,14 @@ from typing import List, Optional
 from dotenv import load_dotenv
 
 # Load environment variables from .env before initializing other configurations
-load_dotenv()
+# Reloaded model configurations from .env
+load_dotenv(override=True)
 
 import uvicorn
 from fastapi import Depends, FastAPI, HTTPException, Request, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
 from drift.detector import DriftDetector
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
@@ -143,12 +145,14 @@ async def lifespan(app: FastAPI):
 
 # ── Limiter setup ──
 limiter = Limiter(key_func=get_remote_address)
+ENV = os.getenv("ENV", "production").lower()
 app = FastAPI(
     title="HarvestGate — ML Inference Gateway",
     description="High-performance, secure crop recommendation and yield prediction API.",
     lifespan=lifespan,
-    docs_url=None if os.getenv("ENV") == "production" else "/docs",
-    redoc_url=None if os.getenv("ENV") == "production" else "/redoc",
+    docs_url=None if ENV == "production" else "/docs",
+    redoc_url=None if ENV == "production" else "/redoc",
+    openapi_url=None if ENV == "production" else "/openapi.json",
 )
 
 # SlowAPI Rate limit handler registration
@@ -158,6 +162,9 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 # ── Prometheus /metrics Scrape Endpoint ──
 metrics_asgi = make_asgi_app()
 app.mount("/metrics", metrics_asgi)
+
+# ── Static Files Directory Mounting ──
+app.mount("/static", StaticFiles(directory="gateway/static"), name="static")
 
 
 def get_client_ip(request: Request) -> str:
@@ -245,16 +252,8 @@ async def prometheus_metrics_middleware(request: Request, call_next):
 
 @app.get("/")
 async def root():
-    """Welcome endpoint providing health, metrics, and documentation links."""
-    return {
-        "message": "Welcome to the HarvestGate ML Inference Gateway!",
-        "status": "online",
-        "endpoints": {
-            "health": "/health",
-            "metrics": "/metrics/",
-            "docs": "/docs" if os.getenv("ENV") != "production" else "disabled"
-        }
-    }
+    """Serves the interactive, premium web client dashboard."""
+    return FileResponse("gateway/static/index.html")
 
 
 # ── Consumer API Endpoints ──
