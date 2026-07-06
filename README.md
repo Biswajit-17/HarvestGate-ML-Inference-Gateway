@@ -30,7 +30,7 @@ graph TD
     
     subgraph Observability & MLOps
         ReturnFresh -->|Async Background| DriftCheck[PSI Data Drift Detector]
-        Gateway -->|Prometheus Metrics| ScrapeEndpoint[/metrics]
+        Gateway -->|Prometheus Metrics| ScrapeEndpoint["/metrics Endpoint"]
         ScrapeEndpoint -->|Local Scraping| PromLocal[Prometheus DB]
         ScrapeEndpoint -->|Cloud Scraping| GrafAlloy[Grafana Alloy]
         PromLocal --> GrafLocal[Local Grafana UI]
