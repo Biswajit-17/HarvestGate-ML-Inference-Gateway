@@ -12,7 +12,7 @@ scrape_configs:
     # When running locally (not containerized), target is host.docker.internal:8000
     # When fully containerized (Phase 6), target becomes gateway:8000
     static_configs:
-      - targets: ["host.docker.internal:8000"]
+      - targets: ["gateway:8000"]
         labels:
           environment: "development"
           service: "harvestgate"
