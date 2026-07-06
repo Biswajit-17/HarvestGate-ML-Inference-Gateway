@@ -275,6 +275,5 @@ class HealthResponse(BaseModel):
     status: str
     onnx_loaded: bool
     redis_connected: bool
-    llm_circuit_breaker_state: Optional[str] = None
-    uptime_seconds: float
+    llm_available: bool
 
