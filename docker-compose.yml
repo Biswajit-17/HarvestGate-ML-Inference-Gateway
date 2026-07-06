@@ -17,6 +17,29 @@ services:
       - redis_data:/data
     restart: always
 
+  gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: harvestgate-gateway
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=production
+      - REDIS_PASSWORD=${REDIS_PASSWORD}
+      - REDIS_URL=redis://:${REDIS_PASSWORD}@redis:6379
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - OPENROUTER_BASE_URL=${OPENROUTER_BASE_URL}
+      - OPENROUTER_MODEL=${OPENROUTER_MODEL}
+      - ONNX_MODEL_PATH=models/harvestml_simulator.onnx
+      - PREPROCESSOR_PATH=models/simulator_preprocessor.joblib
+      - BASELINE_STATS_PATH=drift/baseline_stats.json
+      - PSI_THRESHOLD=0.25
+      - CACHE_TTL_SECONDS=3600
+    depends_on:
+      - redis
+    restart: always
+
   prometheus:
     image: prom/prometheus:latest
     container_name: harvestgate-prometheus
