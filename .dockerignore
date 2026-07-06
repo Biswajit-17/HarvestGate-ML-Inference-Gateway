@@ -1,0 +1,40 @@
+# ── .dockerignore — Exclude development assets from build context ──
+
+# Local Virtual Environments
+venv/
+.venv/
+env/
+
+# Sensitive Data / Local Secrets
+.env
+*.pem
+*.key
+
+# Git Directories & Metadata
+.git/
+.gitignore
+.gitattributes
+
+# Python Caches & Build Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Development Scripts, Scratchpads & Temporary Files
+scratch/
+test_*.py
+verify_*.py
+test_docs_hiding.py
+verify_drift_detection.py
+
+# Documentation
+*.md
+LICENSE
+docs/

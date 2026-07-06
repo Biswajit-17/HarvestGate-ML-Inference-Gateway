@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: harvestgate-redis-cloud
+    command: >
+      redis-server
+      --requirepass ${REDIS_PASSWORD}
+      --rename-command FLUSHALL ""
+      --rename-command FLUSHDB ""
+      --rename-command CONFIG ""
+      --rename-command DEBUG ""
+    volumes:
+      - redis_cloud_data:/data
+    restart: always
+
+  gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: harvestgate-gateway-cloud
+    environment:
+      - ENV=production
+      - REDIS_PASSWORD=${REDIS_PASSWORD}
+      - REDIS_URL=redis://:${REDIS_PASSWORD}@redis:6379
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - OPENROUTER_BASE_URL=${OPENROUTER_BASE_URL}
+      - OPENROUTER_MODEL=${OPENROUTER_MODEL}
+      - ONNX_MODEL_PATH=models/harvestml_simulator.onnx
+      - PREPROCESSOR_PATH=models/simulator_preprocessor.joblib
+      - BASELINE_STATS_PATH=drift/baseline_stats.json
+      - PSI_THRESHOLD=0.25
+      - CACHE_TTL_SECONDS=3600
+    depends_on:
+      - redis
+    ports:
+      - "8000:8000"
+    restart: always
+
+  alloy:
+    image: grafana/alloy:latest
+    container_name: harvestgate-alloy
+    volumes:
+      - ./monitoring/alloy/config.alloy:/etc/alloy/config.alloy:ro
+    environment:
+      - GRAFANA_CLOUD_PROM_URL=${GRAFANA_CLOUD_PROM_URL}
+      - GRAFANA_CLOUD_USER=${GRAFANA_CLOUD_USER}
+      - GRAFANA_CLOUD_TOKEN=${GRAFANA_CLOUD_TOKEN}
+    command:
+      - "run"
+      - "--stability.level=public-preview"
+      - "/etc/alloy/config.alloy"
+    depends_on:
+      - gateway
+    restart: always
+
+volumes:
+  redis_cloud_data:
