@@ -62,10 +62,7 @@ ehthumbs.db
 Thumbs.db
 desktop.ini
 
-# ── Machine Learning Artifacts (Large Binaries) ──
 # ONNX and joblib files are large and should be copied manually or tracked via Git LFS
-models/*.onnx
-models/*.joblib
 models/*.pkl
 models/*.pb
 

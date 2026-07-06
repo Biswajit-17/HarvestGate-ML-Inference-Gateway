@@ -18,18 +18,28 @@ logger = logging.getLogger("harvestgate.security")
 EXPECTED_HASHES = {
     "harvestml_simulator.onnx": "ed486255f767da28dfd3340187e4147db6b80ed7f3e7dcb082e38419a44dbc97",
     "simulator_preprocessor.joblib": "f9b8d89ed3074ca30b2e336c0f9e12b8d0ca9aa9c1fa21b088b161f04e530cc6",
-    "crop_baselines.json": "ac9dcebb2cf5e1af61e53d4205c7a0ed3521d058ddc74969be0487f1161cb3ff",
-    "acreage_priors.json": "c6e3e3a15e4df15f4f20289d5d79468f69b1895100cfff1b24faf321e11a133f",
-    "state_defaults.json": "d3320b225f3cfe7153d495f5653bfcdb9337eae0ceeb7239afd806140cba0341",
+    "crop_baselines.json": "18c6616ec8840d04f19a118d263cbb14e6249e59fa85e30f583e6e7d23b25702",
+    "acreage_priors.json": "fbf88648f58efd2b02985e0c1f59110c463259c35e0521379eee14fdb7fa7c23",
+    "state_defaults.json": "c1280c73933055846480f431dc528b32ee711db78356c7be380ae31e6bb06221",
 }
 
 
 def compute_file_hash(file_path: str) -> str:
-    """Compute the SHA-256 hash of a file."""
+    """Compute the SHA-256 hash of a file, normalizing CRLF to LF for text/JSON files for platform independence."""
+    filename = os.path.basename(file_path)
+    is_text = filename.endswith((".json", ".txt", ".csv"))
+
     sha256 = hashlib.sha256()
-    with open(file_path, "rb") as f:
-        for chunk in iter(lambda: f.read(8192), b""):
-            sha256.update(chunk)
+    if is_text:
+        with open(file_path, "r", encoding="utf-8", newline="") as f:
+            content = f.read()
+            # Normalize all CRLF line endings to LF
+            normalized_content = content.replace("\r\n", "\n").encode("utf-8")
+            sha256.update(normalized_content)
+    else:
+        with open(file_path, "rb") as f:
+            for chunk in iter(lambda: f.read(8192), b""):
+                sha256.update(chunk)
     return sha256.hexdigest()
 
 
