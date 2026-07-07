@@ -1,4 +1,4 @@
-# HarvestGate — ML Inference & Agronomic Advisory Gateway
+# HarvestGate - ML Inference & Agronomic Advisory Gateway
 
 HarvestGate is a high-performance, secure, and production-grade MLOps gateway for crop yield prediction and suitability scoring. It is built on FastAPI, ONNX Runtime, and Redis Caching, integrated with OpenRouter LLM for natural language advisory, and backed by a dual-orchestrated Prometheus/Grafana telemetry engine.
 
